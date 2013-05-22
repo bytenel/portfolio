@@ -1,0 +1,9 @@
+TODO:
+
+-Setup Testing With RSpec
+-Change views into template file
+-Change mail to work with Rails mailer
+-Setup bootstrap, jquery, rspec gems
+-Get rid of test unit
+-Set up application controller to handle rendering of pages
+-Come up with more things to add to portfolio

@@ -1,241 +1,246 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+	<title>
+	  Ben Nelson - Software Engineer 
+    </title>
 
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
+    <meta name="author" content="Ben Nelson" />
+    <meta name="keywords" content="software engineer" />
+ 	<meta name="description" content="Portfolio for a software engineer." />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
+    <!-- CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
 
+	 <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/verticalscroller.js"></script>
+	<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+	<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+	<script type="text/javascript" src="js/contact_form.js"></script>
+	<script type="text/javascript" src="js/startstop-slider.js"></script>
 
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
+	<!-- We only want the thunbnails to display when javascript is disabled -->
+	<script type="text/javascript" src="js/noscript.js"></script>
 
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
+</head>
+<body>
+	<!-- CONTAINER -->
+	<div class="container">
 
 
-      #header {
-        background-image: url("assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
+				<div class="navbar navbar-fixed-top">
+				  <div class="navbar-inner"> 
+					    <ul class="nav">
+					      <li><a href="#top">Home</a></li>
+					      <li><a href="#about">About</a></li>
+					      <li><a href="#contact">Contact</a></li>
+					    </ul>
+				  </div>
+	
+
+	
+		</div>
+		<!-- END LOGO + NAV  -->
+
+		<!-- (START/STOP) SLIDER -->
+		<div id="page-wrap">
+
+		<h2>Brief Introduction</h2>
+
+		<div id="slider">
+
+			<div id="mover">
+
+				<div id="slide-1" class="slide">
+
+					<h1>Capstone</h1>
+
+					<p>The final project for my undergraduate degree at the University of Utah is named "Knowledge Thief." The project will be a learning resource aggregator, click on the logo to see its progress so far!</p>
+
+					<a href="http://www.knowledgethief.com"><img src="images/slide-1-image.png" alt="learn more" /></a>
+
+				</div>
+
+				<div class="slide">
+
+					<h1>Current Employer</h1>
+
+					<p>I am currently employeed by the University of Utah School of Computing as a Teaching Assistant for Feifei Li's CS5530 - Database Systems course. The course is an undergraduate introduction to databases and includes sections about modeling data in entity relationship diagrams, various data structures associated with databases such as B+ Trees, beginning and advanced SQL statements and others.</p>
+
+					<a href="http://www.cs.utah.edu/~lifeifei/cs5530/"><img src="images/slide-2-image.png" alt="learn more" /></a>
+
+				</div>
+
+				<div class="slide">
+
+					<h1>Dreams</h1>
+
+					<p>My dream is to work with Big Data analysis and to do work with Big Data to achieve what I refer to as "Corporate Nirvana." Email me for more information!</p>
+
+					<a href="http://illegalnumbers.blogspot.com"><img src="images/slide-3-image.png" alt="learn more" /></a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</p>
+
+	</div>
+		<!-- END (START/STOP) SLIDER -->
+
+		<!-- ABOUT  -->
+		<div id="about">
+
+			<!-- START CONTAINER ABOUT -->
+			<div id="containerAbout">
+
+				<!-- DESCRIPTION -->
+				<div class="leftAbout">
 
 
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
+					<p>
+			<h2>About</h2>
+					Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer and a current student at the University of Utah. I primarily program in Ruby currently, but I have experience doing web development in PHP as well as ASP.NET and JSP/Java Servlets. My favorite aspects of web development is doing Big Data analysis using natural language processing techniques and statistical inference on large datasets for business decisions.
+						<br/>
+					</p>
+					<p>
+				My passions include agile development of lean software, camping, hiking, paintballing, brewing, reading, cycling and boxing. I have many fun projects which are listed on my Github repository which is located at www.github.com/bytenel. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
+					</p>
 
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
+				</div>
+				<!-- END DESCRIPTION -->
 
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
+				<!-- SHORT NEWS FROM TWITTER -->
+				<div class="rightAbout">
 
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
+					<h3>Short news</h3>
+					<a class="twitter-timeline" href="https://twitter.com/pro_prog" data-widget-id="277890773758902273">Tweets by @pro_prog</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
+			        <!-- END EMBED TWITTER -->
+
+				</div>
+				<!-- END SHORT NEWS FROM TWITTER -->
+
+				<div class="clearer"></div>
+			</div>
+			<!-- END CONTAINER ABOUT -->
+
+			<!TODO Flesh out skills and fix css !>
+			<!-- SKILLS -->
+			<div id="skills">
+				<ul>
+				    <li>PHP</li>
+				    <li></li>
+					<li>Ruby</li>
+				    <li></li>
+					<li>Python</li>
+				    <li></li>
+					<li>C#</li>
+				    <li></li>
+					<li>Java</li>
+				    <li></li>
+					<li>C/C++</li>
+				</ul>
+			</div>
+			<!-- END SKILLS -->
+		</div>
+		<!-- END ABOUT  -->
+		<!-- CONTACT  -->
+		<div id="contact">
+
+			<h2>Contact</h2>
+
+			<p>
+			This contact form will send an email to me so feel free to use it at your discretion! Contact me for any freelance web development, graphic design or programming related jobs or contracts you might have available.
+			</p>
+
+			<!-- FORM -->
+			<div id="form">
+				<form id="ajax-contact-form" action="javascript:alert('success!');">
+					<fieldset class="info_fieldset">
+						<div id="note"></div>
+						<div id="fields">
+							<label>Name</label><input class="textbox" type="text" name="name" value="" /><br />
+							<label>E-Mail</label><input class="textbox" type="text" name="email" value="" /><br />
+							<label>Subject</label><input class="textbox" type="text" name="subject" value="" /><br />
+							<label>Message</label><textarea class="textbox2" name="message" rows="5" cols="25"></textarea><br />
+							<label>&nbsp;</label><input class="button" type="image" src="images/send.gif" id="submit" value="Send Message" />
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<!-- END FORM -->
+
+			<!-- CONTACT INFO -->
+			<div id ="contactInfo">
+			    <p>
+				Feel free to contact me through social networking or by phone as well!
+				</p>
+
+				<p>
+					<span class="bolder">Twitter</span> [@pro_prog]
+				</p>
+				<p>
+				My cell is on me pretty much all the time!
+				</p>
+
+				<p class="bolder">
+				    (435)850-9786
+				</p>
+
+				<p>
+				If for some reason I don't answer feel free to leave me a message, thanks!
+				</p>
+
+			</div>
+			<!-- END CONTACT INFO -->
+
+			<div class="clearer"></div>
+		</div>
+		<!-- END CONTACT  -->
+
+		<!-- FOOTER  -->
+		<p class="footer">
+			Copyright &copy; 2010 White Portfolio. All Rights Reserved. Made by <a href="http://www.mascaradesign.it">Mascara Design</a>
+			for <a href="http://www.yourinspirationweb.com/en"> Your Inspiration Web.</a>
+		</p>
+		<!-- END FOOTER -->
+
+	</div>
+	<!-- END CONTAINER -->
 
 
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	// We only want these styles applied when javascript is enabled
+	$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+	$('div.content').css('display', 'block');
 
-      .filename {
-        font-style: italic;
-      }
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+	// Initially set opacity on thumbs and add
+	// additional styling for hover effect on thumbs
+	var onMouseOutOpacity = 0.67;
+	$('#thumbs ul.thumbs li').opacityrollover({
+		mouseOutOpacity:   onMouseOutOpacity,
+		mouseOverOpacity:  1.0,
+		fadeSpeed:         'fast',
+		exemptionSelector: '.selected'
+	});
 
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
+});
+</script>
 
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
 
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
-    </div>
-  </body>
+</body>
 </html>
