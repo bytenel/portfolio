@@ -1,5 +1,6 @@
 TODO:
-
+-Fix styling and js on index page (DONE)
+-Update current employer section to Health Catalyst
 -Setup Testing With RSpec
 -Change views into template file
 -Change mail to work with Rails mailer
