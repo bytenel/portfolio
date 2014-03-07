@@ -1,1 +1,0 @@
-document.write('<style>.noscript { display: none; }</style>');
