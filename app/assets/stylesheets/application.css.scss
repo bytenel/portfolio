@@ -13,17 +13,6 @@
  */
 @import "bootstrap";
 
-#navbar {
-	padding-bottom: 0px;
-	margin-bottom: 0px;	
-}
-
-#nav_container li {
-	list-style-type: none;
-	display: inline-block;
-	margin: 0px 20px 0px 20px;
-}
-
 #nav_container li:hover {
 	background: #333;	
 }
@@ -31,5 +20,5 @@
 #nav_container li a {
 	display: inline-block;
 	color: #FFFFFF;
-	padding: 10px;
+	padding: 20px 20px 20px 20px;
 }
