@@ -15,3 +15,10 @@
 //= require bootstrap
 //= require angular
 //= require_tree .
+
+ var profile = angular.module('profile', []);
+
+ main_controller = profile.controller('main', ['$scope', function($scope) {
+  $scope.greeting = 'Hola!';
+
+ }]);
