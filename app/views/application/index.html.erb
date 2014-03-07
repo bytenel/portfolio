@@ -1,34 +1,39 @@
 <div id="main_content" class="container-fluid">
 		<%= render partial: "partials/navbar" %>
 		<div class="row">
-		<div id="page-wrap" class="col-md-8">
-			<%= render partial: "partials/slider" %>
-		</div>
-		<div id="about" class="col-md-4">
-			<div id="containerAbout">
-				<div class="leftAbout">
-					<p>
-						<h2>About</h2>
-						Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer and a current student at the University of Utah. I primarily program in Ruby currently, but I have experience doing web development in PHP as well as ASP.NET and JSP/Java Servlets. My favorite aspects of web development is doing Big Data analysis using natural language processing techniques and statistical inference on large datasets for business decisions.
-					</p>
-						<br/>
-					<p>
-						My passions include agile development of lean software, camping, hiking, paintballing, brewing, reading, cycling and boxing. I have many fun projects which are listed on my Github repository which is located at www.github.com/bytenel. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
-					</p>
 
-				</div>
-				<%= render partial: "partials/twitter" %>
+			<div id="page-wrap" class="col-md-8">
+				<%= render partial: "partials/slider" %>
 			</div>
 
+			<div id="about" class="col-md-4">
+				<div id="containerAbout">
+					<div class="leftAbout">
+						<p>
+							<h2>About</h2>
+							Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer and a current student at the University of Utah. I primarily program in Ruby currently, but I have experience doing web development in PHP as well as ASP.NET and JSP/Java Servlets. My favorite aspects of web development is doing Big Data analysis using natural language processing techniques and statistical inference on large datasets for business decisions.
+						</p>
+							<br/>
+						<p>
+							My passions include agile development of lean software, camping, hiking, paintballing, brewing, reading, cycling and boxing. I have many fun projects which are listed on my Github repository which is located at www.github.com/bytenel. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
+						</p>
+
+					</div>
+					<%= render partial: "partials/twitter" %>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
 			<%= render partial: "partials/skills" %>
 		</div>
-		</div>
+	
 		<div class="row">
-		<div class="col-lg-12">	
-			<hr/>
-			<%= render partial: "partials/contact" %>
+			<div class="col-lg-12">	
+				<hr/>
+				<%= render partial: "partials/contact" %>
 
-			<%= render partial: "partials/footer" %>	
-		</div>
+				<%= render partial: "partials/footer" %>	
+			</div>
 		</div>
 </div>
