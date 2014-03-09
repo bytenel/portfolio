@@ -1,8 +1,8 @@
 <div id="slideShow">
 	<div class="slide" ng-model="selectedSlide">
+		<a id="slider-link" ng-href="{{ selectedSlide.link }}"><img id="slider-image" ng-src="{{ selectedSlide.image }}"/></a>
 		<h1 id="slider-header">{{ selectedSlide.header }}</h1>
 		<p id="slider-content">{{ selectedSlide.content }}</p>
-		<a id="slider-link" ng-href="{{ selectedSlide.link }}"><img id="slider-image" ng-src="{{ selectedSlide.image }}"/></a>
 	</div>
 	<img src="<%= asset_path("left.jpg") %>" ng-click="previousSlide()") /> <img src="<%= asset_path("right.jpg") %>" ng-click="nextSlide()") /> 
 </div>
