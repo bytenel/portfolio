@@ -1,20 +1,8 @@
-<h2>Introduction</h2>
-<div id="slider">
-		<div id="mover">
-			<div id="slide-1" class="slide">
-				<h1>Capstone</h1>
-				<p>The final project for my undergraduate degree at the University of Utah is named "Knowledge Thief." The project will be a learning resource aggregator, click on the logo to see its progress so far!</p>
-				<a href="http://www.knowledgethief.com"><%=image_tag("slide-1-image.png")%></a>
-			</div>
-			<div class="slide">
-				<h1>Current Employer</h1>
-						<p>I am currently employeed by the University of Utah School of Computing as a Teaching Assistant for Feifei Li's CS5530 - Database Systems course. The course is an undergraduate introduction to databases and includes sections about modeling data in entity relationship diagrams, various data structures associated with databases such as B+ Trees, beginning and advanced SQL statements and others.</p>
-				<a href="http://www.cs.utah.edu/~lifeifei/cs5530/"><%=image_tag("slide-2-image.png")%></a>
-			</div>
-			<div class="slide">
-				<h1>Dreams</h1>
-				<p>My dream is to work with Big Data analysis and to do work with Big Data to achieve what I refer to as "Corporate Nirvana." Email me for more information!</p>
-				<a href="http://illegalnumbers.blogspot.com">blog</a>
-			</div>
-		</div>
+<div id="slideShow">
+	<div class="slide" ng-model="selectedSlide">
+		<h1 id="slider-header">{{ selectedSlide.header }}</h1>
+		<p id="slider-content">{{ selectedSlide.content }}</p>
+		<a id="slider-link" ng-href="{{ selectedSlide.link }}"><img id="slider-image" ng-src="{{ selectedSlide.image }}"/></a>
+	</div>
+	<img src="<%= asset_path("left.jpg") %>" ng-click="previousSlide()") /> <img src="<%= asset_path("right.jpg") %>" ng-click="nextSlide()") /> 
 </div>
