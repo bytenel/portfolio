@@ -62,7 +62,7 @@
  		};
 
  		$scope.previousSlide = function(){
-			$scope.index =	($scope.slides[$scope.index - 1] == undefined ? 0 : $scope.index - 1);
+			$scope.index =	($scope.slides[$scope.index - 1] == undefined ? $scope.slides.length - 1 : $scope.index - 1);
 	 		$scope.selectedSlide = $scope.slides[$scope.index];
  		};
  }]);
