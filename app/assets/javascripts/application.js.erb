@@ -66,3 +66,19 @@
 	 		$scope.selectedSlide = $scope.slides[$scope.index];
  		};
  }]);
+
+//TODO: wrap this in a directive...this makes me sad
+$(function(){
+	$("#slideShow").hover(function(){
+		$("#sliderLeftArrow").addClass('hoverGrey');
+		$("#sliderRightArrow").addClass('hoverGrey');
+		$("#sliderLeftArrow").toggle();
+		$("#sliderRightArrow").toggle();
+	},
+	function(){
+		$("#sliderLeftArrow").removeClass('hoverGrey');
+		$("#sliderRightArrow").removeClass('hoverGrey');
+		$("#sliderLeftArrow").toggle();
+		$("#sliderRightArrow").toggle();
+	});
+});
