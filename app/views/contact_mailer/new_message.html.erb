@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+  <h1> New Portfolio Email</h1>
+  <h3> From : <%= @message.name %> : <%= @message.email %> </h3>
+  <b> <%= @message.subject %> </b>
+  <hr/>
+
+  <p>
+    <%= @message.body %>
+  </p>
+  </body>
+</html>
