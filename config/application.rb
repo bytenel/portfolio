@@ -55,6 +55,9 @@ module Portfolio
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    # Getting asset pipeline to work well with Bower
+    config.assets.paths << Rails.root.join('app', 'assets', 'components')
+
     config.action_mailer.smtp_settings = {
      :address              => "smtp.gmail.com",
      :port                 => 587,

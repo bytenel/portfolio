@@ -1,12 +1,12 @@
-//= require jquery
-//= require jquery_ujs
+//= require jquery/dist/jquery
 //= require bootstrap
-//= require angular
+//= require angular/angular
+//= require angularjs-modal-service/src/createDialog
 //= require_tree .
 
- var profile = angular.module('profile', []);
+ var profile = angular.module('profile', ['fundoo.services']);
 
- main_controller = profile.controller('main', ['$scope', function($scope) {
+ main_controller = profile.controller('main', ['createDialog','$scope', function(createDialog, $scope) {
  		$scope.slides = [
  			{
  				header: "Current Employer",
