@@ -1,29 +1,30 @@
 <div id="main_content" class="container-fluid" ng-controller="main">
-		<div class="row">
+		<div class="row tile-wrapper">
+ 			 <div class="left-top-frame">
+			 </div>
 
-			<div id="page-wrap" class="col-md-8">
+			 <div class="top-frame">
+			 </div>
 
-					<div class="about">
-						<p>
-							<h2>About</h2>
-							Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer!  I do development currently in C# but have experience
-							in Ruby, Ruby on Rails, Python, C/C++, JavaEE, JSP, JavaScript (including NodeJS), PHP and others! I've worked in small teams, alone and with
-							large development groups (20+ members) and have done all styles of development you can throw at me including BDD, TDD, Kanban, Lean, Scrum, and other Agile methodolgies. I am passionate about <b>working code</b> and making cool dreams a reality! 
-						</p>
-							<br/>
-						<p>
-							My passions include agile development of lean software, camping, hiking, paintballing, brewing, photography, reading, cycling and boxing. I have many fun projects which are listed on the Projects portion of this site. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
+ 			 <div class="right-top-frame">
+			 </div>
+			
+			 <div class="center-frame">
+				<%= image_tag "me.jpg", :class => "my-image" %>
+			 </div>
+	
+			 <div class="left-frame">
+			 </div>
+	
+			 <div class="right-frame">
+			 </div>
+			 
+			 <div class="bottom-frame">
+			 </div>
+		</div>			
 		<div class="row">
 			<div class="col-lg-12">	
 				<%= render partial: "partials/contact" %>
-
-				<%= render partial: "partials/footer" %>	
 			</div>
 		</div>
 </div>

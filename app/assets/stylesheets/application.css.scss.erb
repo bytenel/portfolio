@@ -5,50 +5,93 @@
  
 @import "bootstrap";
 
-#nav_container li:hover {
-	background: #333;	
-}
-
-#nav_container li a {
-	display: inline-block;
-	color: #FFFFFF;
-	padding: 20px 20px 20px 20px;
-}
-
 #main_content{
-	margin-top: 45px;
+	height: 1000px;
 }
 
-#slideShow{
-	margin-top: 20px;
-	display: inline-block;
-}
-
-#slideShow img{
-	cursor: pointer;
-	max-height: 200px;
-}
-
-#sliderLeftArrow{
-	background:url(<%= asset_path("glyphicons-halflings.png") %>) 0 0;	
-	background-position: 232px 65px;
-	height: 19px;
-	width: 20px;
-	display: none;
-}
-
-#sliderRightArrow{
-	height: 19px;
-	width: 20px;
-	background:url(<%= asset_path("glyphicons-halflings.png") %>) 0 0;	
-	background-position: 208px 65px;
-	display: none;
-}
 
 #contactForm{
-	width: 50%;	
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;	
 }
 
-.footer{
-	text-align: center;
+.my-image{
+	max-width: 1200px;
+	max-height: 700px;
+	height: 445px;
+	width: 600px;
+    display:block;
+    margin:auto;
+    vertical-align: middle;
+  /*  border: 2px solid black;
+            border-radius: 30px;
+            -moz-border-radius: 30px;
+            -khtml-border-radius: 30px;
+            -webkit-border-radius: 30px; */
+}
+
+.tile-wrapper{
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+}
+
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.center-frame{
+    height: 200px;      /* equals max image height */
+    width: 100%;
+    text-align: center; 
+    margin: 0;
+}
+
+.left-frame{
+    float: left;
+    width: 34.9%;
+    height: 50%;
+    background-color: red;
+}
+
+.bottom-frame{
+	margin-top: 20%;
+    float: left;
+    width: 30.1009%;
+    height: 50%;
+    margin: 0;
+    background-color: green;
+}
+
+
+.right-frame{
+    float: right;
+    width: 35%;
+    height: 50%;
+    background-color: blue;
+}
+
+.top-frame {
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    background-color: #DDDDDD;
+    float: left;
+}
+
+.left-top-frame{
+    width: 30%;
+    height: 40%;
+    background-color: yellow;
+    float: left;
+}
+
+.right-top-frame{
+    float: right;
+    width: 30%;
+    height: 40%;
+    background-color: pink;
 }
