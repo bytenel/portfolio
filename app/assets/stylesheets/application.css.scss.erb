@@ -6,7 +6,7 @@
 @import "bootstrap";
 
 #main_content{
-	height: 1000px;
+	height: 1500px;
 }
 
 
@@ -19,11 +19,7 @@
 .my-image{
 	max-width: 1200px;
 	max-height: 700px;
-	height: 445px;
-	width: 600px;
-    display:block;
-    margin:auto;
-    vertical-align: middle;
+	
   /*  border: 2px solid black;
             border-radius: 30px;
             -moz-border-radius: 30px;
@@ -32,59 +28,63 @@
 }
 
 .tile-wrapper{
-	height: 100%;
+	position: absolute;
+	height: 1500px;
 	width: 100%;
 	min-height: 100%;
 }
 
-.helper{
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
 .center-frame{
-    height: 200px;      /* equals max image height */
-    width: 100%;
-    text-align: center; 
-    margin: 0;
+	position: relative;
+    height: 30%;
+	width: 40%;
+    margin:auto;
+    vertical-align: middle;
+    background: url(image_path('me.jpg'));
+    background-size: 600px 445px;
+    top: 25%;
 }
 
 .left-frame{
+	position: absolute;
+	left: 0;
+	bottom: 0;
     float: left;
-    width: 34.9%;
-    height: 50%;
+    width: 30%;
+    height: 35%;
     background-color: red;
 }
 
 .bottom-frame{
-	margin-top: 20%;
     float: left;
-    width: 30.1009%;
-    height: 50%;
-    margin: 0;
+    width: 40%;
+    height: 45%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
     background-color: green;
 }
 
 
 .right-frame{
-    float: right;
-    width: 35%;
-    height: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    width: 30%;
+    height: 35%;
     background-color: blue;
 }
 
 .top-frame {
     width: 40%;
-    height: 40%;
-    margin: 0;
+    height: 25%;
     background-color: #DDDDDD;
     float: left;
 }
 
 .left-top-frame{
     width: 30%;
-    height: 40%;
+    height: 25%;
     background-color: yellow;
     float: left;
 }
@@ -92,6 +92,22 @@
 .right-top-frame{
     float: right;
     width: 30%;
-    height: 40%;
+    height: 25%;
     background-color: pink;
+}
+
+.left-center-frame{
+    width: 30%;
+    height: 40%;
+    background-color: black;
+    float: left;
+}
+
+.right-center-frame{
+	position: relative;
+	bottom: 5%;
+    float: right;
+    width: 30%;
+    height: 40%;
+    background-color: orange;
 }
