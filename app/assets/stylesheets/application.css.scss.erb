@@ -4,7 +4,7 @@
  */                                                                             
 @import 'bootstrap';
 
-@font-face {
+@font-family{
 	font-family: "Flick Bold Hollow";
 	src: url('<%= asset_path('fonts/FLICKHOL.ttf') %>') format('truetype');
 }
@@ -24,8 +24,6 @@
 
 .image-container{
 	position: absolute;
-	bottom: 300px;
-	right: 200px;
 	bottom: 0;
 	right: 0;
 }
@@ -46,13 +44,13 @@ body{
 .inner-image-github-frame{
 	position: absolute;
 	top: 30px;
-	right: 80px;
+	right: 60px;
 }
 
 .inner-image-linkedin-frame{
 	position: absolute;
 	bottom: 30px;
-	right: 80px;
+	right: 60px;
 }
 
 .content{
@@ -69,17 +67,19 @@ body{
 	}
 }
 
-#contact-modal{
+.hidden{
 	display: none;
 }
 
 #about-slide{
-	display: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 30px;
+	color: #80bd01;
+	padding: 40px;
 }
 
-#projects-slide{
-	display: none;
-}
-
-#contact-modal {
+#project-slide{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	padding: 40px;
 }
