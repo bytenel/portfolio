@@ -1,3 +1,9 @@
+/*
+ *= require_tree .                                                              
+ *= require_self                                                                
+ */                                                                             
+@import 'bootstrap';
+
 @font-face {
 	font-family: "Flick Bold Hollow";
 	src: url('<%= asset_path('fonts/FLICKHOL.ttf') %>') format('truetype');
@@ -47,4 +53,33 @@ body{
 	position: absolute;
 	bottom: 30px;
 	right: 80px;
+}
+
+.content{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding: 100px;	
+	padding-right: 75px;
+	ul{
+		list-style-type: none;
+	}
+	a{
+		text-decoration:none;
+	}
+}
+
+#contact-modal{
+	display: none;
+}
+
+#about-slide{
+	display: none;
+}
+
+#projects-slide{
+	display: none;
+}
+
+#contact-modal {
 }

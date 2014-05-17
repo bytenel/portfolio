@@ -1,6 +1,14 @@
 <div id="main_content" ng-controller="main">
 		<div>
 			Ben Nelson - Software Engineer
+			<br/>
+			<div class="content">
+				<ul>
+				  <li><a href="#projects">Projects</a></li>
+				  <li><a href="#about">About me</a></li>
+				  <li><a id="contact-link" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+				</ul>
+			</div>
 			<div class="image-container"> 
 				 <div class="image-frame">
 				 </div>
@@ -14,6 +22,25 @@
 				  </div>
 			  </div>
 		</div>			
+</div>
+
+<div id="contact-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+	    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<%= render partial: 'partials/contact' %>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<div id="about-slide">
+
+</div>
+
+<div id="project-slide">
+
 </div>
 
 <script type="text/javascript">
