@@ -1,99 +1,1297 @@
-<div id="main_content">
-		<div id="wrapper-for-main-content">
-			Ben Nelson - Software Engineer
-			<br/>
-			<div class="content">
-				<ul>
-				  <li><a id="projects-link" href="#projects">Projects</a></li>
-				  <li><a id="about-link" href="#about">About me</a></li>
-				  <li><a href="#" id="contact-link" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
-				</ul>
-			</div>
-		</div>			
-</div>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="not-ie" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MD - Responsive Personal Resume / Portfolio template" />
+<meta name="keywords" content="MD - Responsive Personal Resume / Portfolio template"/>
+<meta name="author" content="Metrothenes" />
 
-<div id="contact-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">Close</button>
-        <h4 class="modal-title">Contact</h4>
-      </div>
-      <div class="modal-body">
-		<%= render partial: 'partials/contact' %>
-	  </div>
+<title>MD - Responsive Personal Resume / Portfolio template</title>
+<!--Fav and touch icons-->
+<link rel="shortcut icon" href="img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+ <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<!--style sheet-->
+<link rel="stylesheet" media="screen" href="../../assets/stylesheets/bootstrap.css"/>
+<link rel="stylesheet" href="../../assets/stylesheets/font-awesome/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/fontello/css/fontello.css"/>
+<link rel="stylesheet" media="screen" href="../../assets/stylesheets/styles.css"/>
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/animate.css"/>
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/owl.theme.css"/>
+<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' >
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arizonia">
+
+<!--color stylesheet -->
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-red.css" title="red">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-green.css" title="green">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-purple.css" title="purple">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-blue.css" title="blue">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-turquoise.css" title="turquoise">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-sun-flower.css" title="sun-flower">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-orange.css" title="orange">
+<link rel="stylesheet" href="../../assets/stylesheets/colors/color-emerald.css" title="emerald">
+
+</head>
+<body>
+
+<!-- Preloader -->
+	<div class="mask">
+		<div class="loader-item fa fa-spin loader-color">
+		</div>
 	</div>
-  </div>
-</div>
+<!-- Preloader end -->
+
+<!-- header  -->
+<nav id="header">
+    <ul id="navs" class="navone">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#skills">Skill</a></li> 
+        <li><a href="#portfolio">Works</a></li>
+        <li><a href="#blog">Blog</a></li>
+		<li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul><!-- navigation end -->
+
+	<a id="open-nav" class="nav-half fa fa-bars"><span class="nav-menu">Menu</span>
+	   	<i></i>
+	</a>
+
+</nav>
+<!-- header end -->
+
+<!-- Section : Home -->
+  	<section id="home" class="home-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+  		<div class="home-overlay">   
+			<div class="container">
+				<div class="col-md-12">
+
+					<div class="logo"><img src="../../assets/images/logo.png" class="img-responsive" alt="logo"></div><!-- end .logo -->
+					<div class="info">
+						<h2>MARSHALL DOE</h2>
+						<h3>DESIGNER + DEVELOPER</h3>
+					</div><!-- end .info -->
+
+					<ul class="social">
+				         <li><a class="twitter" href="#"></a></li>
+				         <li><a class="facebook" href="#"></a></li>
+				         <li><a class="dribble" href="#"></a></li>
+				         <li><a class="vimeo" href="#"></a></li>
+				         <li><a class="linkedin" href="#"></a></li>
+				         <li><a class="github" href="#"></a></li>
+				         <li><a class="google" href="#"></a></li>
+				        <!--  <li><a class="behance" href="#"></a></li>
+				         <li><a class="forrst" href="#"></a></li>
+				         <li><a class="lastfm" href="#"></a></li> -->
+				         <!--li><a class="rss" href="#"></a></li>
+				         <li><a class="instagram" href="#"></a></li>
+				         <li><a class="vimeo" href="#"></a></li>
+				         <li><a class="forrst" href="#"></a></li>
+				         <li><a class="pinterest" href="#"></a></li>
+				         <li><a class="skype" href="#"></a></li>
+				         <li><a class="picassa" href="#"></a></li>
+				         <li><a class="youtube" href="#"></a></li>
+				         <li><a class="flickr" href="#"></a></li>
+				         <li><a class="tumblr" href="#"></a></li>
+				         <li><a class="blogger" href="#"></a></li>
+				         <li><a class="delicious" href="#"></a></li>
+				         <li><a class="digg" href="#"></a></li>
+				         <li><a class="friendfeed" href="#"></a></li>
+				         <li><a class="wordpress" href="#"></a></li>-->
+				    </ul><!-- end .social -->
+				</div><!-- end .col-md-12 -->
+			</div><!-- end .cotainer -->
+
+	        <div class="avatar-section">
+	            <img src="http://placehold.it/450x450" class="img-responsive" alt="">
+	        </div><!-- end .avatar-section -->
+		</div><!-- end .home-overlay -->
+	</section>
+<!-- Section : Home end -->
+
+<!-- Section : About -->
+				<section id="about" class="section about-style1">
+					<div class="container">
+
+						<div class="section-title" >
+							<h2>About me</h2>
+							<span class="border"></span>
+							<p>
+								<span>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
+							</p>
+							<p>
+								Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. 
+							</p>
+						</div><!-- end .section-title -->
 
 
-<div id="project-slide" class="hidden">
-    <p>My current projects can be found on my <a href="http://github.com/bytenel">Github</a>.</p>
-    <br/>
-    <p>In addition I am currently working on an app to help people grow physically and maintain that growth on the Android
-    store which is called "Marathon". I love doing anything with data, analysis, NLP, machine learning or the like. In my
-    previous work experience I have contributed to several intense projects which follow.</p>
-    <p>I also enjoy attending conferences, user group meetings and giving presentations! The last user group presentation
-    I gave was at the UtahJS group and it was on Knockout! I plan on giving a primer on AngularJS as my next talk and then
-    after that I will probably discuss writing desktop Windows applications in NodeJS.</p>
-    <br/>
-    <p>Work projects: <ul>
-    					<li> Health Catalyst, Inc.
-    					<ul>
-	    					<li>Subject Area Mart Designer: a WPF application to gather data from disparate data sources
-	    						then aggregate, distill and produce the resulting data in an easy to analyze
-	    						manner.
-	    					</li>
-	    					<li>
-	    						Atlas: a ASP.Net 4.5 MVC application to manage datamarts and SSIS SMO jobs to
-	    						perform ETL. 
-	    					</li>
-	    					<li>
-	    						Source Mart Designer: a WPF application to do column, table, and database mapping for a particular datamart
-	    						to an EDW (electronic data warehouse). Worked with Oracle, SQL Server, XML, ODBC, OleDB, and flat file data sources.
-	    					</li>
-    					</ul>
-    					</li>
-    				  </ul>
-    </p>
-    <a class="back-link" href="#">Back</a>
-</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="about-info">
+									<div class="info-title">
+										<p>Birthdate</p>
+										<p>Phone</p>
+										<p>Email</p>
+										<p>website</p>
+										<p>Address</p>
+									</div> <!-- end .info-title -->
+									<div class="info-details">
+										<p>: 21-02-1992</p>
+										<p>: +6198704563</p>
+										<p>: hello@mashaldoe.com</p>
+										<p>: www.marshaldoe.com</p>
+										<p>: 121 king street Melbourne VIC<br>  3000, Austraila</p>
+									</div><!-- end .info-details -->					
+									<p class="about-signature">Marshall Doe</p>
+									<a href="#" class="mt-button large btn"><i class="fa-download"></i><span>Download Resume</span></a>
+								</div> <!-- end .about-info -->
+							</div> <!-- end .col-md-4 -->
+							<div class="col-md-8">
+								<div class="about-extra">
+									<h4>HOBBIES & INTERESTS</h4>
+									<div class="about-extra-icon">
+										<ul>
+											<li>
+												<p><i class="fa-gamepad"></i><br><span>Games</span></p>
+											</li>
+											<li>
+												<p><i class="fa-headphones"></i><br><span>Music</span></p>
+											</li>
+											<li>
+												<p><i class="fa-plane"></i><br><span>Travel</span></p>
+											</li>
+											<li>
+												<p><i class="fa-apple2"></i><br><span>Mac OS</span></p>
+											</li>
+											<li>
+												<p><i class="fa-video-camera"></i><br><span>Cinema</span></p>	
+											</li>
+											<li>
+												<p><i class="fa-coffee"></i><br><span>Coffee</span></p>
+											</li>
+											<li>
+												<p><i class="fa-truck"></i><br><span>Cars</span></p>
+											</li>
+											<li>
+												<p><i class="fa-money"></i><br><span>Money</span></p>
+											</li>											
+										</ul>
+									</div> <!-- end .about-extra-icon -->
+								</div><!-- end .about-extra -->				
+							</div><!-- end .col-md-8 -->	
+						</div><!-- end .col-md-row -->
 
-<div id="about-slide">
-<p>
-	<h2>About</h2>
-	Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer!  I do development currently in C# but have experience
-	in Ruby, Ruby on Rails, Python, C/C++, JavaEE, JSP, JavaScript (including NodeJS), PHP and others! I've worked in small teams, alone and with
-	large development groups (20+ members) and have done all styles of development you can throw at me including BDD, TDD, Kanban, Lean, Scrum, and other Agile methodolgies. I am passionate about <b>working code</b> and making cool dreams a reality! 
-</p>
-	<br/>
-<p>
-	My passions include agile development of lean software, camping, hiking, paintballing, brewing, photography, reading, cycling and boxing. I have many fun projects which are listed on the Projects portion of this site. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
-</p>
-<a class="back-link" href="#">Back</a>
-</div>
+
+						<!--div class="row">
+							<div class="col-md-6">
+				                <a href="#" class="mt-button small outline">Small</a>
+				                <br><br>            
+				                <a href="#" class="mt-button medium outline">Medium</a>
+				                <br><br>            
+				                <a href="#" class="mt-button large outline">Largest</a>
+							</div>
+							<div class="col-md-6">
+				                <a href="#" class="mt-button small outline rounded">Small</a>
+				                <br><br>            
+				                <a href="#" class="mt-button medium outline rounded">Medium</a>
+				                <br><br>            
+				                <a href="#" class="mt-button large outline rounded">Largest</a>
+							</div>
+						</div-->
+
+					</div><!-- end .container -->
+				</section>
+<!-- Section : About end -->
+
+<!-- Section : Resume -->
+				<section id="resume" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>My resume</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->
+						
+						<div class="row">
+							<div class="col-md-12">
+								<div class="timeline">
+
+								<!-- Experience Timeline -->
+
+									<div class="timeline-category exp-category">
+										<a class="large bt-timeline">Experiences</a>
+										<div class="timeline-category-icon">
+											<div class="iconspace"><i class="fa-folder-open"></i></div>
+										</div> <!-- /.timeline-category-icon end -->
+									</div> <!-- /.timeline-category end -->
+									<div class="col-md-6 timeline-post-left">
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>SENIOR DEVELOPER</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>SENIOR DEVELOPER</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->									
+									</div> <!-- /.timeline-post-left end -->
+									<div class="col-md-6 timeline-post-right">
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>SENIOR DEVELOPER</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>SENIOR DEVELOPER</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->
+									</div> <!-- /.timeline-post-right end -->
+
+								<!-- Experience Timeline  end -->
+
+								<!-- Education Timeline -->
+									<div class="timeline-category edu-cagegory">
+										<a class="large bt-timeline">Education</a>
+										<div class="timeline-category-icon">
+											<div class="iconspace"><i class="fa-book"></i></div>
+										</div> <!-- /.timeline-category-icon end -->
+									</div> <!-- /.timeline-category end -->
+									<div class="col-md-6 timeline-post-left">
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>Phd Computer Science</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->	
+									</div> <!-- /.timeline-post-left end -->
+									<div class="col-md-6 timeline-post-right">
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>University</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->
+										<div class="timeline-post">											
+											<div class="timeline-post-content-holder">
+												<div class="timeline-post-icon"></div>
+												<div class="timeline-post-title">
+													<h4>High School</h4>
+												</div>
+												<div class="timeline-post-subtitle">
+													<p><span>Company Name </span><span class="timeline-duration">2012 - Current</span></p>
+												</div>
+												<div class="timeline-post-content">
+													<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+												</div>
+											</div> <!-- /.timeline-post-content-holder end -->							
+										</div> <!-- /.timeline-post end -->
+									</div> <!-- /.timeline-post-right end -->
+
+								<!-- Education Timeline -->
+
+									<div class="timeline-end-icon"><span> <i class="fa-bookmark"></i></span></div>
+								</div><!-- end .timeline -->
+							</div><!-- end .col-md-12 -->
+
+						</div><!-- end .row -->
+					</div><!-- end .container -->					
+				</section>
+<!-- Section : Resume end -->
+
+<!--Parallax Section -->
+  	<div id="status" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+  		<div class="parallax-overlay-2"> 
+  			<div class="container">
+  					<div class="title">
+						<h1>Milestones Achieved</h1>
+  					</div><!-- end .title -->	
+
+					<!-- Status -->	
+						<div class="row count">
+
+							<div class="col-xs-6 col-sm-6 col-md-3 single">
+								<div class="total-numbers" data-perc="1300">
+									<div class="iconspace"><i class="cicon fa-coffee"></i></div>									
+									<span class="sum">2412</span>
+									 Cups of Coffee
+								</div><!-- end .total-numbers -->	
+							</div><!-- end .col-xs-6 .col-sm-6 .col-md-3 .single -->	
+
+							<div class="col-xs-6 col-sm-6 col-md-3 single">
+								<div class="total-numbers" data-perc="1300">
+									<div class="iconspace"><i class="cicon fa-briefcase"></i></div>									
+									<span class="sum">550</span>
+									 Succesful Projects
+								</div><!-- end .total-numbers -->	
+							</div><!-- end .col-xs-6 .col-sm-6 .col-md-3 .single -->	
+
+							<div class="col-xs-6 col-sm-6 col-md-3 single">
+								<div class="total-numbers" data-perc="1300">
+									<div class="iconspace"><i class="cicon fa-group"></i></div>									
+									<span class="sum">212</span>
+									 Happy Clients
+								</div><!-- end .total-numbers -->	
+							</div><!-- end .col-xs-6 .col-sm-6 .col-md-3 .single -->	
+
+							<div class="col-xs-6 col-sm-6 col-md-3 single">
+								<div class="total-numbers" data-perc="1300">
+									<div class="iconspace"><i class="cicon fa-trophy"></i></div>									
+									<span class="sum">99</span>
+									Awards Won
+								</div><!-- end .total-numbers -->	
+							</div><!-- end .col-xs-6 .col-sm-6 .col-md-3 .single -->	
+
+						</div><!-- end .row .count -->	
+					<!-- Status end-->
+  			</div><!-- end .container -->	 
+  		</div><!-- end .parallax-overlay-2 -->	
+ 	</div>
+<!-- Parallax Section End -->
+
+<!-- Section : Service -->
+				<section id="service" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>My Services</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->	
+
+						<div class="row">
+
+							<div class="col-md-6 left-service">
+
+								<div class="service-box">
+									<i class="service-icon fa-leaf"></i>
+									<div class="service-content">
+										<h3>Designing</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+								<div class="service-box">
+									<i class="service-icon fa-magic"></i>
+									<div class="service-content">
+										<h3>Branding</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+								<div class="service-box">
+									<i class="service-icon fa-bar-chart-o"></i>
+									<div class="service-content">
+										<h3>Analytics</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+							</div><!-- end .col-md-6 .left-service -->	
+
+							<div class="col-md-6 right-service">
+
+								<div class="service-box">
+									<i class="service-icon fa-flask"></i>
+									<div class="service-content">
+										<h3>Developing</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+								<div class="service-box">
+									<i class="service-icon fa-globe"></i>
+									<div class="service-content">
+										<h3>Marketing</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+								<div class="service-box">
+									<i class="service-icon fa-anchor"></i>
+									<div class="service-content">
+										<h3>Support</h3>
+										<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a</p>
+									</div>
+								</div><!-- end .service-box -->
+
+							</div><!-- end .col-md-6 .right-service -->
+						</div><!-- end .row -->
+					</div><!-- end .container -->
+				</section>
+<!-- Section : Service end -->
+
+<!-- Section : skills -->
+				<section id="skills" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>Skill</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->
 
 
-<script type="text/javascript">
-$("#project-slide").hide();
-$("#about-slide").hide();
 
-$("#projects-link").click(function(){
-	$("#wrapper-for-main-content").hide('slide', {direction: 'left', complete: function(){ 
-		$("#project-slide").removeClass("hidden").show('slide', {direction: 'right'}, 1000);
-	}}, 1000);
-});
+						<div class="row">
 
-$("#about-link").click(function(){
-	$("#wrapper-for-main-content").hide('slide', {direction: 'right', complete: function(){ 
-		$("#about-slide").removeClass("hidden").show('slide', {direction: 'left'}, 1000);
-	}}, 1000);
-});
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="87"><p>87<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>HTML5/CSS3</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
 
-$(".back-link").click(function(event){
-	console.log(event);
-	$("#"+event.delegateTarget.parentNode.id).hide('slide', {direction: 'left', complete: function(){ 
-		$("#wrapper-for-main-content").removeClass("hidden").show('slide', {direction: 'right'}, 1000);
-	}}, 1000);
-});
-</script>
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="75"><p>75<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>JAVASCRIPT</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="83"><p>83<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>WORDPRESS</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="69"><p>69<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>JOOMLA</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="100"><p>100<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>PHOTOSHOP</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="73"><p>73<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>ILLUSTRATOR</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="85"><p>85<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>INDESIGN</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
+								<div class="chart" data-percent="55"><p>55<sup>%</sup></p></div>
+								<div class="skills-content">
+									<h3>3D MAX</h3>
+									<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+								</div><!-- end .skils-content -->
+							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
+
+						</div><!-- end .row -->
+
+					</div><!-- end .container -->
+				</section>
+<!-- Section : skills end-->
+
+<!--Parallax Section -->
+  	<div id="wprocess" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+  		<div class="parallax-overlay-2"> 
+  			<div class="container">
+
+  					<div class="title">
+						<h1>Work Process</h1>
+  					</div><!-- end .title -->
+ 				
+  				<div class="row">
+             				<div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="icon-lamp"></i>
+                                        <h4>IDEA</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="fa fa-puzzle-piece"></i>
+                                        <h4>CONCEPT</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="icon-brush"></i>
+                                        <h4>DESIGN</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="fa fa-code"></i>
+                                        <h4>DEVELOP</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="fa fa-bug"></i>
+                                        <h4>TEST</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            
+                            <div class="col-xs-6 col-sm-4 col-md-2">
+                                <div class="work_process">
+                                    <div class="work_process-box">
+                                        <i class="fa fa-rocket"></i>
+                                        <h4>LAUNCH</h4>
+                                    </div><!-- end .work_process-box -->
+                                </div><!-- end .work_process -->
+                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+
+				</div><!-- end .row -->
+  			</div><!-- end .container --> 
+  		</div><!-- end .parallax-overlay-2 --> 
+ 	</div>
+<!-- Parallax Section End -->
+
+<!-- Section : Portfolio -->
+				<section id="portfolio" class="section">
+						<div class="container">
+										
+							<div class="section-title">
+								<h2>Portfolio</h2>
+								<span class="border"></span>
+							</div><!-- end .section-title -->
+										
+				            <div class="row">
+				                <!-- #options -->
+				                    <div id="options" class="clearfix">
+				                        <ul id="filters" class="option-set clearfix" data-option-key="filter">
+				                            <li><a href="#filter" data-option-value="*" class="selected">all works</a></li>
+				                            <li><a href="#filter" data-option-value=".webdesign">webdesign</a></li>
+				                            <li><a href="#filter" data-option-value=".uidesign">uidesign</a></li>
+				                            <li><a href="#filter" data-option-value=".branding">branding</a></li>     
+				                            <li><a href="#filter" data-option-value=".logodesign">logodesign</a></li>
+				                            <li><a href="#filter" data-option-value=".illustration">illustration</a></li>
+				                        </ul>
+				                    </div> 
+				                <!-- #options end-->
+				            </div> <!-- End .row -->
+				            <div class="row">
+				                <!-- Portfolio container -->
+				                    <div class="portfolio-container">
+
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->                        
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign logodesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-slider.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign illustration logodesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-video.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-slider.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>AKQA</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign illustration">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-video.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding logodesign">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>Squared icon set design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-slider.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
+
+				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding illustration">
+				                            <div class="project-item">
+				                                <div class="project-image">
+				                                    <a href="portfolio-single-video.html">
+				                                        <img src="http://placehold.it/1100x856" alt="" />
+				                                        <div class="overlay">
+				                                            <div class="details">
+				                                                <h2>portfolio title design</h2>
+				                                                <p>developed for <span>Envato</span></p>
+				                                            </div>
+				                                        </div>
+				                                    </a>
+				                                </div><!-- end .project-image -->
+				                            </div><!-- end .project-item -->
+				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->   
+				                                                                                                                                                                                                
+				                    </div><!-- End .portfolio-container -->
+
+				                <!-- Portfolio container End-->
+				            </div><!-- End .row -->
+
+						</div><!-- end .container --> 
+				</section>	
+<!-- Section : Portfolio end -->
+
+<!-- Section : Blog -->
+				<section id="blog" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>My Blog</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->
+
+
+			            <div class="row">
+			                <div class="blog-post-holder">
+
+			                    <!-- Standard .masonry-post -->
+
+			                        <div class="masonry-post">
+			                            <div class="masonry-post-img">
+			                                <img class="img-responsive" src="http://placehold.it/360x218" alt="">
+			                            </div><!-- End .masonry-post-img -->
+
+			                            <div class="masonry-post-title"><h4><a href="#">Standard blog post with image</a></h4></div>
+			                            <p class="masonry-post-meta">By <a class="masonry-author">Author</a> | April 5th, 2014</p>
+			                            <p class="masonry-post-content">
+			                                Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...
+			                            </p><!-- End .masonry-post-content -->
+			                            <div class="masonry-post-more clearfix">
+			                                <a href="#" class="pull-left"><i class="fa fa-comments"></i> 3 Comments</a>
+			                                <a href="#" class="pull-right"><i class="fa fa-long-arrow-right"></i></a>
+			                            </div><!-- End .masonry-post-more .clearfix -->
+			                        </div>
+
+			                    <!-- End .masonry-post -->
+
+			                    <!-- Video .masonry-post -->
+			                        <div class="masonry-post">
+			                            <div class="masonry-post-video">
+			                                <div class="video-holder">
+			                                    <iframe src="http://player.vimeo.com/video/76175542?title=0" width="800" height="450" ></iframe>
+			                                </div><!-- End .video-holder-->                      
+			                            </div><!-- End .masonry-post-video -->
+
+			                            <div class="masonry-post-title"><h4><a href="#">Standard blog post with video</a></h4></div>
+			                            <p class="masonry-post-meta">By <a class="masonry-author">Author</a> | April 5th, 2014</p>
+			                            <p class="masonry-post-content">
+			                                    Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...
+			                            </p><!-- End .masonry-post-content -->
+			                            <div class="masonry-post-more clearfix">
+			                                <a href="#" class="pull-left"><i class="fa fa-comments"></i> 3 Comments</a>
+			                                <a href="#" class="pull-right"><i class="fa fa-long-arrow-right"></i></a>
+			                            </div><!-- End .masonry-post-more .clearfix -->
+			                        </div>
+			                    <!-- End .masonry-post -->
+
+			                    <!-- slider .masonry-post -->
+
+			                        <div class="masonry-post">
+			                            <div id="blog-carousel" class="owl-carousel owl-theme">
+			                                <div class="item"><img class="img-responsive" src="http://placehold.it/800x450" alt=""></div>
+			                                <div class="item"><img class="img-responsive" src="http://placehold.it/800x450" alt=""></div>
+			                                <div class="item"><img class="img-responsive" src="http://placehold.it/800x450" alt=""></div>
+			                            </div>
+			                            <div class="masonry-post-title"><a href="#"><h4>Standard blog post with image</h4></a></div>
+			                            <p class="masonry-post-meta">By <a class="masonry-author">Author</a> | April 5th, 2014</p>
+			                            <p class="masonry-post-content">
+			                                Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...
+			                            </p><!-- End .masonry-post-content -->
+			                            <div class="masonry-post-more clearfix">
+			                                <a href="#" class="pull-left"><i class="fa fa-comments"></i> 3 Comments</a>
+			                                <a href="#" class="pull-right"><i class="fa fa-long-arrow-right"></i></a>
+			                            </div><!-- End .masonry-post-more .clearfix -->
+			                        </div>
+
+			                    <!-- End .masonry-post -->
+			                    <!-- OnlyText .masonry-post -->
+			                        <div class="masonry-post">
+			                            <div class="masonry-post-title"><h4><a href="#">Blog post with text only</a></h4></div>
+			                            <p class="masonry-post-meta">By <a class="masonry-author">Author</a> | April 5th, 2014</p>
+			                            <p class="masonry-post-content">
+			                                    Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...
+			                            </p><!-- End .masonry-post-content -->
+			                            <div class="masonry-post-more clearfix">
+			                                <a href="#" class="pull-left"><i class="fa fa-comments"></i> 3 Comments</a>
+			                                <a href="#" class="pull-right"><i class="fa fa-long-arrow-right"></i></a>
+			                            </div><!-- End .masonry-post-more .clearfix -->
+			                        </div>
+			                    <!-- End .masonry-post -->
+
+
+			                    <!-- Quote .masonry-post -->
+			                        <div class="masonry-post quote">
+			                            <a href="#">
+			                                <div class="post-quote">
+			                                    <h2>I'm not a genius. I'm just a tremendous bundle of experience.</h2>
+			                                    <P>- R. Buckminster Fuller</P>
+			                                </div>
+			                            </a><!-- End .masonry-post-content -->
+			                        </div>
+			                    <!-- End .masonry-post .quote -->
+
+
+			                    <!-- Quote .masonry-post -->
+			                        <div class="masonry-post quote">
+			                            <a href="#">
+			                                <div class="post-quote">
+			                                    <h2>I'm not a genius. I'm just a tremendous bundle of experience.</h2>
+			                                    <P>- R. Buckminster Fuller</P>
+			                                </div>
+			                            </a><!-- End .masonry-post-content -->
+			                        </div>
+			                    <!-- End .masonry-post .quote -->
+			                </div><!-- End .masonry-container -->
+			            </div><!-- End .row -->
+
+			            <div class="row">
+			                <div class="col-xs-12">
+			                    <div class="btn-masonry-container">
+			                        <a href="#" class="btn-masonry">More Post</a>
+			                    </div><!-- End .btn-masonry-container -->
+			                </div><!-- End .col-xs-12 -->
+			            </div><!-- End .row -->
+
+					</div><!-- end .container -->
+				</section>
+<!-- Section : Blog end-->
+
+
+<!-- Section : clients -->
+				<section id="clients" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>our Clients</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->
+
+                        		<div class="row">
+                        			<div id="testimonials"  class="owl-carousel owl-theme">
+                        				<div class="item">
+							                	<div class="box testimonials">
+													<img src="http://placehold.it/120x120" alt="">
+													<blockquote>
+													<p>I'm selfish, impatient, and a little insecure. I make mistakes, I'm out of control, and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.</p>
+													</blockquote>
+													<div class="author">Marilyn Monroe - <a href="">WebSite</a></div>
+												</div><!-- end .box .testimonials -->
+										</div><!-- end .item -->	
+                        				<div class="item">
+							                	<div class="box testimonials">
+													<img src="http://placehold.it/120x120" alt="">
+													<blockquote>
+													<p>There is darkness Everywhere! You are not the only one who has lost everything!</p>
+													</blockquote>
+													<div class="author">Author Name - <a href="">WebSite</a></div>
+												</div><!-- end .box .testimonials -->
+										</div><!-- end .item -->		
+                        				<div class="item">
+							                	<div class="box testimonials">
+													<img src="http://placehold.it/120x120" alt="">
+													<blockquote>
+													<p>There is darkness Everywhere! You are not the only one who has lost everything!</p>
+													</blockquote>
+													<div class="author">Author Name - <a href="">WebSite</a></div>
+												</div><!-- end .box .testimonials -->
+										</div><!-- end .item -->		
+                        				<div class="item">
+							                	<div class="box testimonials">
+													<img src="http://placehold.it/120x120" alt="">
+													<blockquote>
+													<p>There is darkness Everywhere! You are not the only one who has lost everything!</p>
+													</blockquote>
+													<div class="author">Author Name - <a href="">WebSite</a></div>
+												</div><!-- end .box .testimonials -->
+										</div><!-- end .item -->		
+
+									</div><!-- end #testimonials -->		
+                        		</div><!-- end .row -->
+
+
+
+						<div class="row">
+							<ul class="clients_logo">
+								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#" ><img src="http://placehold.it/212x125" alt="logo" class="img-responsive"></a></li>
+								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="http://placehold.it/212x125" alt="logo" class="img-responsive"></a></li>
+								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="http://placehold.it/212x125" alt="logo" class="img-responsive"></a></li>
+								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="http://placehold.it/212x125" alt="logo" class="img-responsive"></a></li>
+							</ul><!-- end .clients_logo -->
+						</div><!-- end .row -->
+
+					</div><!-- end .container -->
+				</section>
+<!-- Section : Clients end-->
+
+
+<!--Parallax Section -->
+  	<div id="qoutes" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+  		<div class="parallax-overlay-2"> 
+  			<div class="container">
+					<div class="col-md-12">
+					    <h1>"It’s art if it can’t be explained. It’s fashion if no one asks for an explanation. It’s design if it doesn’t need explanation."</h1>
+
+					    <p>-Wouter Stokkel</p>
+  					</div><!-- end .col-md-12 -->  				
+  			</div><!-- end .container --> 
+  		</div><!-- end .parallax-overlay-2 -->
+ 	</div>
+<!-- Parallax Section End -->
+
+
+<!-- Section : Contact -->
+				<section id="contact" class="section">
+					<div class="container">
+
+						<div class="section-title">
+							<h2>Contact me</h2>
+							<span class="border"></span>
+						</div><!-- end .section-title -->
+
+
+						<div class="row">
+							<div class="col-md-6">
+								<h2>LET'S GET IN TOUCH</h2>
+								<ul class="get_in">
+									<li><i class="fa fa-envelope-o"></i><p>hello@metrothemes.me</p></li>
+									<li><i class="fa fa-phone"></i><p>+0123 456 789</p></li>				
+									<li><i class="fa fa-map-marker"></i><p>21 Cool Street, Melbourne Victoria 3000 Australia</p></li>
+									<li><a href="#"><i class="fa fa-cloud-download"></i><p>Download Vcard</p></a></li>	
+								</ul><!-- end .get_in -->
+							</div><!-- end .col-md-6 -->
+							<div class="col-md-6">
+								<h2>DROP ME A LINE</h2>
+								<!-- contact from -->
+								<form class="form" id="form" method="post" action="contact">
+										<input type="text" name="name"  placeholder="Name" required/>
+										<input type="text" name="email" placeholder="Email" required/>
+										<textarea name="message" placeholder="Message" rows="8" ></textarea>
+										<input type="submit" class="btn mt-button medium outline"  id="submit" value="Send Message">
+
+								</form>	
+								<span class="sending">
+									sending...
+								</span><!-- end .sending -->
+								<div class="mess center">
+								</div><!-- end .mess .center -->	
+							</div><!-- end .col-md-6 -->
+
+							<div id="gmap" class="gmap col-md-12">				
+							</div><!-- end .gmap .col-md-12 -->
+
+						</div><!-- end .row -->
+					</div><!-- end .container -->
+				</section>
+<!-- Section : Contact end -->
+
+<!-- Footer -->
+			<footer>
+		        <div class="twitter-feed-section">
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-md-12">
+		                        <div class="twt-icon">
+		                            <i class="fa fa-twitter"></i>
+		                        </div><!-- end .twt-icon -->
+
+		                        <div class="twt-feed">
+									<div id="tweet-sroll-wrapper" class="clearfix">
+									     <div class="tweets-list-container"></div>
+									</div><!-- end #tweet-scroll-wrapper -->
+								</div><!-- end .twt-feed -->
+		                    </div><!-- end .col-md-12 -->
+		                </div><!-- end .row -->
+		            </div><!-- end .container -->
+		        </div><!-- end .twitter-feed-section -->
+
+		        <div class="footer-widgets">
+		            <div class="container">
+		                <div class="row">
+
+		                    <div class="col-md-4 col-xs-12">
+		                        <h4>Recent Post</h4>
+
+		                        <div class="recent-post-item">
+		                            <div class="recent-post-item-img">
+		                                <a href="#"><img src="http://placehold.it/150x150" alt=""/></a>
+		                            </div><!-- end .recent-post-item-img -->
+		                            <div class="recent-post-item-des">
+		                                <h5><a href="#">Standard blog post</a></h5>
+		                                <span>Nullam ornare, sem in malesuada sagittis</span>
+		                            </div><!-- end .recent-post-item-des -->
+		                        </div><!-- end .recent-post-item -->
+		                        <div class="recent-post-item">
+		                            <div class="recent-post-item-img">
+		                                <a href="#"><img src="http://placehold.it/150x150" alt=""/></a>
+		                            </div><!-- end .recent-post-item-img -->
+		                            <div class="recent-post-item-des">
+		                                <h5><a href="#">Standard blog post</a></h5>
+		                                <span>Nullam ornare, sem in malesuada sagittis</span>
+		                            </div><!-- end .recent-post-item-des -->
+		                        </div><!-- end .recent-post-item -->
+
+		                    </div><!-- end .col-md-4 col-xs-12 -->
+
+		                    <div class="col-md-4 col-xs-12">
+		                        <h4>Category Cloud</h4>
+		                        <ul class="tag-cloud">
+		                            <li>
+		                                <a href="#">animal</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">audio</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">blondi</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">children</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">gallery format</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">video</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">travel</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">fashion</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">post format</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">quote</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">car</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">listing</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">music</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">grid format</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">life style</a>
+		                            </li>
+		                            <li>
+		                                <a href="#">audio</a>
+		                            </li>
+		                        </ul><!-- end .tag-cloud -->
+
+		                    </div><!-- end .col-md-4 col-xs-12 -->
+
+		                    <div class="col-md-4 col-xs-12">
+		                        <h4>Flickr Photo</h4>
+		                        <ul class="my-flickr flickrgrid">
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>	
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>		
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>
+
+		                            <li>
+		                                <a href="#">
+		                                    <img src="http://placehold.it/77x74" alt="">
+		                                </a>
+		                            </li>		                            	                            	 
+		                        </ul><!-- end .my-flickr flickrgrid -->
+
+		                    </div><!-- end .col-md-4 col-xs-12 -->
+
+		                </div><!-- end .row -->
+		            </div><!-- end .container -->		        	
+		        </div><!-- end .footer-widgets -->
+
+		        <div class="footer-bottom">
+		        	<div class="container">
+		        		<div class="row">
+
+				  			<div class="col-md-6 col-xs-12">
+		                    </div><!-- end .col-md-6 col-xs-12 -->
+				  			<div class="col-md-6 col-xs-12">
+				                    <ul class="social">
+				                        <li><a class="facebook" href="#"></a></li>
+				                        <li><a class="twitter" href="#"></a></li>
+				                        <li><a class="linkedin" href="#"></a></li>
+				                        <li><a class="google" href="#"></a></li>
+				                        <li><a class="vimeo" href="#"></a></li>
+				                        <li><a class="github" href="#"></a></li>
+				                        <li><a class="behance" href="#"></a></li>
+				                        <li><a class="dribble" href="#"></a></li>
+				                        <li><a class="instagram" href="#"></a></li>
+				                        <li><a class="lastfm" href="#"></a></li>
+				                        <li><a class="rss" href="#"></a></li>
+				                        <li><a class="vimeo" href="#"></a></li>
+				                        <li><a class="forrst" href="#"></a></li>
+				                        <li><a class="pinterest" href="#"></a></li>
+				                        <li><a class="skype" href="#"></a></li>
+				                        <li><a class="picassa" href="#"></a></li>
+				                        <li><a class="youtube" href="#"></a></li>
+				                        <li><a class="flickr" href="#"></a></li>
+				                        <li><a class="tumblr" href="#"></a></li>
+				                        <li><a class="blogger" href="#"></a></li>
+				                        <li><a class="delicious" href="#"></a></li>
+				                        <li><a class="digg" href="#"></a></li>
+				                        <li><a class="friendfeed" href="#"></a></li>
+				                        <li><a class="wordpress" href="#"></a></li>
+				                    </ul><!-- end .social -->		                        
+		                    </div><!-- end .col-md-6 col-xs-12 -->
+		        		</div><!-- end .row -->
+		        	</div><!-- end .container -->
+		        </div><!-- end .footer-bottom -->
+			</footer>
+<!-- Footer end -->
+
+<!--JavaScript-->
+<script type="text/javascript" src="../../assets/javascripts/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/appear-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false" ></script>
+<script type="text/javascript" src="../../assets/javascripts/gmap3-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.easing-1.3.pack-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.form-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.nav-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.parallax-1.1.3-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.sticky-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/jquery.ufvalidator-1.0.5-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/owl.carousel-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/skrollr-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/styleswitcher-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/tweetscroll/jquery.tweetscroll.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/smooth-scroll-min.js"></script>
+<script type="text/javascript" src="../../assets/javascripts/scripts.js"></script>
+
+<!-- Scroll Top -->
+  <a class="scroll-top" href="#" title="Scroll to top"><i class="fa-chevron-up"></i></a>
+</body>
+</html>

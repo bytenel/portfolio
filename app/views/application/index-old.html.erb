@@ -1,0 +1,99 @@
+<div id="main_content">
+		<div id="wrapper-for-main-content">
+			Ben Nelson - Software Engineer
+			<br/>
+			<div class="content">
+				<ul>
+				  <li><a id="projects-link" href="#projects">Projects</a></li>
+				  <li><a id="about-link" href="#about">About me</a></li>
+				  <li><a href="#" id="contact-link" data-toggle="modal" data-target="#contact-modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>			
+</div>
+
+<div id="contact-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">Close</button>
+        <h4 class="modal-title">Contact</h4>
+      </div>
+      <div class="modal-body">
+		<%= render partial: 'partials/contact' %>
+	  </div>
+	</div>
+  </div>
+</div>
+
+
+<div id="project-slide" class="hidden">
+    <p>My current projects can be found on my <a href="http://github.com/bytenel">Github</a>.</p>
+    <br/>
+    <p>In addition I am currently working on an app to help people grow physically and maintain that growth on the Android
+    store which is called "Marathon". I love doing anything with data, analysis, NLP, machine learning or the like. In my
+    previous work experience I have contributed to several intense projects which follow.</p>
+    <p>I also enjoy attending conferences, user group meetings and giving presentations! The last user group presentation
+    I gave was at the UtahJS group and it was on Knockout! I plan on giving a primer on AngularJS as my next talk and then
+    after that I will probably discuss writing desktop Windows applications in NodeJS.</p>
+    <br/>
+    <p>Work projects: <ul>
+    					<li> Health Catalyst, Inc.
+    					<ul>
+	    					<li>Subject Area Mart Designer: a WPF application to gather data from disparate data sources
+	    						then aggregate, distill and produce the resulting data in an easy to analyze
+	    						manner.
+	    					</li>
+	    					<li>
+	    						Atlas: a ASP.Net 4.5 MVC application to manage datamarts and SSIS SMO jobs to
+	    						perform ETL. 
+	    					</li>
+	    					<li>
+	    						Source Mart Designer: a WPF application to do column, table, and database mapping for a particular datamart
+	    						to an EDW (electronic data warehouse). Worked with Oracle, SQL Server, XML, ODBC, OleDB, and flat file data sources.
+	    					</li>
+    					</ul>
+    					</li>
+    				  </ul>
+    </p>
+    <a class="back-link" href="#">Back</a>
+</div>
+
+<div id="about-slide">
+<p>
+	<h2>About</h2>
+	Hi! My name is <strong>Ben Nelson</strong>, I am a software engineer and web developer!  I do development currently in C# but have experience
+	in Ruby, Ruby on Rails, Python, C/C++, JavaEE, JSP, JavaScript (including NodeJS), PHP and others! I've worked in small teams, alone and with
+	large development groups (20+ members) and have done all styles of development you can throw at me including BDD, TDD, Kanban, Lean, Scrum, and other Agile methodolgies. I am passionate about <b>working code</b> and making cool dreams a reality! 
+</p>
+	<br/>
+<p>
+	My passions include agile development of lean software, camping, hiking, paintballing, brewing, photography, reading, cycling and boxing. I have many fun projects which are listed on the Projects portion of this site. My twitter feed and blog feed are also linked above as well as my email address. Feel free to contact me at any time!
+</p>
+<a class="back-link" href="#">Back</a>
+</div>
+
+
+<script type="text/javascript">
+$("#project-slide").hide();
+$("#about-slide").hide();
+
+$("#projects-link").click(function(){
+	$("#wrapper-for-main-content").hide('slide', {direction: 'left', complete: function(){ 
+		$("#project-slide").removeClass("hidden").show('slide', {direction: 'right'}, 1000);
+	}}, 1000);
+});
+
+$("#about-link").click(function(){
+	$("#wrapper-for-main-content").hide('slide', {direction: 'right', complete: function(){ 
+		$("#about-slide").removeClass("hidden").show('slide', {direction: 'left'}, 1000);
+	}}, 1000);
+});
+
+$(".back-link").click(function(event){
+	console.log(event);
+	$("#"+event.delegateTarget.parentNode.id).hide('slide', {direction: 'left', complete: function(){ 
+		$("#wrapper-for-main-content").removeClass("hidden").show('slide', {direction: 'right'}, 1000);
+	}}, 1000);
+});
+</script>
