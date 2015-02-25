@@ -303,117 +303,117 @@ a.hire-btn:hover{
 .social li a.instagram:before { content: '\e80e'; }
 
 /* social icon hovers */
-.social li a.facebook:hover { 
+.social li a.facebook { 
     background-color:#3c5fac;
     opacity: 1; 
     border-color: #3c5fac; 
 }
-.social li a.twitter:hover  { 
+.social li a.twitter  { 
     background-color:#5ec3df; 
     opacity: 1; 
     border-color: #5ec3df; 
 }
-.social li a.flickr:hover  { 
+.social li a.flickr  { 
     background-color:#FF0084; 
     opacity: 1; 
     border-color: #FF0084; 
 }
-.social li a.rss:hover  { 
+.social li a.rss  { 
     background-color:#ff9900; 
     opacity: 1; 
     border-color: #ff9900; 
 }
-.social li a.dribble:hover  { 
+.social li a.dribble  { 
     background-color:#EA4C89; 
     opacity: 1; 
     border-color: #EA4C89; 
 }
-.social li a.lastfm:hover  { 
+.social li a.lastfm  { 
     background-color:#D51007; 
     opacity: 1; 
     border-color: #D51007; 
 }
-.social li a.linkedin:hover  { 
+.social li a.linkedin  { 
     background-color:#2089b5; 
     opacity: 1; 
     border-color: #2089b5; 
 }
-.social li a.vimeo:hover  { 
+.social li a.vimeo  { 
     background-color:#0dadd6; 
     opacity: 1; 
     border-color: #0dadd6; 
 }
-.social li a.google:hover  { 
+.social li a.google  { 
     background-color:#c63d2d; 
     opacity: 1; 
     border-color: #c63d2d; 
 }
-.social li a.forrst:hover  { 
+.social li a.forrst  { 
     background-color:#5b9a68; 
     opacity: 1; 
     border-color: #5b9a68; 
 }
-.social li a.skype:hover  { 
+.social li a.skype  { 
     background-color:#00aff0; 
     opacity: 1; 
     border-color: #00aff0; 
 }
-.social li a.picassa:hover  { 
+.social li a.picassa  { 
     background-color:#ffd34e; 
     opacity: 1; 
     border-color: #ffd34e; 
 }
-.social li a.youtube:hover  { 
+.social li a.youtube  { 
     background-color:#c8312b; 
     opacity: 1; 
     border-color: #c8312b; 
 }
-.social li a.pinterest:hover  { 
+.social li a.pinterest  { 
     background-color:#cb2027; 
     opacity: 1; 
     border-color: #cb2027; 
 }
-.social li a.tumblr:hover  { 
+.social li a.tumblr  { 
     background-color: #2C4762;
     opacity: 1; 
     border-color: #2C4762; 
 }
-.social li a.behance:hover  { 
+.social li a.behance  { 
     background-color: #3878F6;
     opacity: 1; 
     border-color: #3878F6; 
 }
-.social li a.blogger:hover  { 
+.social li a.blogger  { 
     background-color: #fc9947;
     opacity: 1; 
     border-color: #fc9947; 
 }
-.social li a.delicious:hover  { 
+.social li a.delicious  { 
     background-color: #3274d1;
     opacity: 1; 
     border-color: #3274d1; 
 }
-.social li a.digg:hover  { 
+.social li a.digg  { 
     background-color: #205891;
     opacity: 1; 
     border-color: #205891; 
 }
-.social li a.friendfeed:hover  {
+.social li a.friendfeed  {
     background-color: #2f72c4;
     opacity: 1; 
     border-color: #2f72c4; 
 }
-.social li a.github:hover  {
+.social li a.github  {
     background-color: #000000;
     opacity: 1; 
     border-color: #000000; 
 }
-.social li a.wordpress:hover  {
+.social li a.wordpress  {
     background-color: #0083b3;
     opacity: 1; 
     border-color: #0083b3; 
 }
-.social li a.instagram:hover  {
+.social li a.instagram  {
     background-color:#3f729b; 
     opacity: 1; 
     border-color: #3f729b; 
@@ -813,21 +813,21 @@ a.hire-btn:hover{
 /* 5.1 - Parallax Backgrounds
 ------------------------------------------------------------------------*/
 #status{
-    background-image: url('http://placehold.it/1920x1024');
+    /*background-image: url('http://placehold.it/1920x1024');*/
 }
 #wprocess{
-    background-image: url('http://placehold.it/1920x1024');
+    /*background-image: url('http://placehold.it/1920x1024');*/
 }
 #hire{
-    background-image: url('http://placehold.it/1920x1024');
+    /*background-image: url('http://placehold.it/1920x1024');*/
 }
 #qoutes{
-    background-image: url('http://placehold.it/1920x1024');
+    /*background-image: url('http://placehold.it/1920x1024');*/
 }
 /* 6 - Home
 ------------------------------------------------------------------------*/
 #home{
-    background: url('http://placehold.it/1920x1024');
+    /*background: url('http://placehold.it/1920x1024');*/
     background-attachment: fixed !important;
     background-position: center center;
     background-repeat: no-repeat;
