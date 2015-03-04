@@ -1,67 +1,4 @@
-/*
-* Template Name: MD - Responsive Personal Resume / Portfolio template
-* Template URI: http://themeforest.com/user/metrothemes
-* Description:MD - Responsive Personal Resume / Portfolio template
-* Author: Metrothemes
-* Author URI: http://themeforest.com/user/metrothemes
-* Version: 1.0
-*/
-
-
-/*---------------------------------------------------------------------- /
-Table of Contents 
------------------------------------------------------------------------- /
-
-* 1 - Imported Stylesheets
-* 2 - General Styles
-*   2.1 - Button Styles
-*   2.2 - Social Icons
-* 3 - Header
-*   3.1 - Navigation One
-*   3.2 - Navigation Two
-* 4 - Section
-*   4.1 - Section Title
-* 5 - Parallax
-*   5.1 - Parallax Backgrounds
-* 6 - Home
-* 7 - About
-* 8 - Resume
-*   8.1 - Timeline
-* 9 - Milstone Counters
-* 10 - Service Items
-* 11 - Skill 
-*   11.1 - Skill Chart
-* 12 - Work Process
-* 13 - Portfolio
-*   13.1 - Isotop Transitions
-*   13.2 - Portfolio Single Page
-* 14 - Pricetable BG
-*   14.1 - Priceing
-* 15 - Blog
-* 16 - Clients
-*   16.1 - Testimonials
-*   16.2 - Clients Logo
-* 17 - Contact
-* 18 - Footer
-*   18.1 - Tweet List
-*   18.2 - Footers Widgets
-*   18.3 - Footer Social Icons
-* 19 - Color Switcer   
-* 20 - Preloader
-
------------------------------------------------------------------------- /
-Table of Contents End
-------------------------------------------------------------------------*/
-
-
-
-/* 1 - Imported Stylesheets 
-------------------------------------------------------------------------*/   
 @import url(metrofontpack.css);
-
-
-/* 2 - General Styles
-------------------------------------------------------------------------*/
 html{
     overflow-y: scroll;
     overflow-x: hidden;    
@@ -143,9 +80,6 @@ blockquote p {
     font-weight: bold;
     line-height: 30px;
 }
-/**/
-
-
 .row [class^="col-"]:last-child .work_process:before{
     display: none;
 }
@@ -178,8 +112,6 @@ blockquote p {
     z-index: 9999;
     outline: none;
 }
-/* 2.1 - Button Styles
-------------------------------------------------------------------------*/
 .btn{
     background-image: none;
     border-color: rgba(0, 0, 0, 0.1);
@@ -257,8 +189,6 @@ a.hire-btn:hover{
 .rounded {
     border-radius:50px!important;
 }
-/* 2.2 - Social Icons
-------------------------------------------------------------------------*/
 .social { padding:0; margin:2em 0; list-style:none; text-align: center; }
 .social li { display:inline-block; padding:0; margin-bottom: 3px; }
 .social li a { 
@@ -418,9 +348,6 @@ a.hire-btn:hover{
     opacity: 1; 
     border-color: #3f729b; 
 }
-
-/* 3 - Header
-------------------------------------------------------------------------*/
 #header {
     display: block;
     position: fixed;
@@ -512,10 +439,6 @@ a.hire-btn:hover{
 #open-nav:hover {
     cursor: pointer;
 }
-
-
-/* 3.1 - Navigation One
-------------------------------------------------------------------------*/
 .navone {
     position: absolute;
     left: 0;
@@ -546,10 +469,6 @@ a.hire-btn:hover{
     -o-transition:      all 0.3s;
     transition:         all 0.3s;
 }
-
-
-/* 3.2 - Navigation two
-------------------------------------------------------------------------*/
 .main-menu-continer{
     min-height: 80px;
 }
@@ -707,18 +626,10 @@ a.hire-btn:hover{
 .toggle_nav_button {
     display: none;
 }
-
-
-
-/* 4 - Section
-------------------------------------------------------------------------*/
 .section{
     padding: 150px 0;
     position: relative;
 }
-
-/* 4.1 - Section Title
-------------------------------------------------------------------------*/
 .about-style1 .section-title{
     margin-top: 178px;
     text-align: center; 
@@ -757,8 +668,6 @@ a.hire-btn:hover{
     font-weight: bold;
     color: #7e878f; 
 }
-/* 5 - Parallax
-------------------------------------------------------------------------*/
 .parallax {
     background-attachment: fixed !important;
     background-position: center center;
@@ -810,8 +719,6 @@ a.hire-btn:hover{
     color:#222;
 }
 
-/* 5.1 - Parallax Backgrounds
-------------------------------------------------------------------------*/
 #status{
     /*background-image: url('http://placehold.it/1920x1024');*/
 }
@@ -824,8 +731,6 @@ a.hire-btn:hover{
 #qoutes{
     /*background-image: url('http://placehold.it/1920x1024');*/
 }
-/* 6 - Home
-------------------------------------------------------------------------*/
 #home{
     /*background: url('http://placehold.it/1920x1024');*/
     background-attachment: fixed !important;
@@ -895,9 +800,6 @@ a.hire-btn:hover{
     width: 460px;
 }
 
-
-/* 7 - about
-------------------------------------------------------------------------*/
 .img-about{
     display: block;
     height: auto;
@@ -976,14 +878,10 @@ a.hire-btn:hover{
 .about-extra-icon-style2 ul li p i {
     font-size: 30px;
 }
-/* 8 - Resume
-------------------------------------------------------------------------*/
 #resume.section{
     background-color: #f0f2f7;
 }
 
-/* 8.1 - Timeline
-------------------------------------------------------------------------*/
 .timeline {
     height: 100%;
 }
@@ -1182,8 +1080,6 @@ a.hire-btn:hover{
     margin: 0 auto;
     z-index: 6;
 }
-/* 9 - Milestones Counters
-------------------------------------------------------------------------*/
 .count{
 
 }
@@ -1216,9 +1112,6 @@ a.hire-btn:hover{
 
 }
 
-
-/* 10 - Service Items
-------------------------------------------------------------------------*/
 .left-service{
     float: left;
 }
@@ -1270,16 +1163,9 @@ a.hire-btn:hover{
     font-size: 16px;
     line-height: 28px;
 }
-
-
-/* 11 - Skills
-------------------------------------------------------------------------*/
 #skills{
     background-color: #eff1f7;
 }
-
-/* 11 - Skill chart
-------------------------------------------------------------------------*/
 .chart-padding{
     margin-bottom: 50px; 
 }
@@ -1329,10 +1215,6 @@ a.hire-btn:hover{
     font-size: 16px;
     line-height: 28px;
 }
-
-
-/* 12 - Works Process
-------------------------------------------------------------------------*/
 .work_process {
     position: relative;
     text-align: center;
@@ -1363,9 +1245,6 @@ a.hire-btn:hover{
     margin: 0;
     color: #FFFFFF;
 }
-
-/* 13 - portfolio
-------------------------------------------------------------------------*/
 #options {
     display: block;
     margin:20px auto 40px 10px;
@@ -1497,8 +1376,6 @@ a.hire-btn:hover{
 .project-item:hover img {
     transform: scale(1.1);
 }
-/* 13.1 - Isotop transitions
-------------------------------------------------------------------------*/
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1530,9 +1407,6 @@ a.hire-btn:hover{
     -o-transition-duration: 0s;
     transition-duration: 0s;
 }
-
-/* 13.2 - Portfolio single page 
-------------------------------------------------------------------------*/
 .portfolio-single {
     padding-bottom: 100px;
     padding-top: 150px;
@@ -1569,14 +1443,9 @@ a.hire-btn:hover{
     text-align: center;
     text-transform: uppercase;
 }
-/* 14 - PriceTable Bg
-------------------------------------------------------------------------*/
 #pricetable{
     background-color: #f0f2f7;
 }
-
-/* 14.1 - priceing
-------------------------------------------------------------------------*/
 .price-padding{
     padding-left: 6px;
     padding-right: 6px;
@@ -1676,10 +1545,6 @@ a.hire-btn:hover{
     text-transform: uppercase;
     border-radius: 5px;
 }
-
-/* 15 - Blog
-------------------------------------------------------------------------*/
-
 .blog-masonry {
   padding: 80px 0;
 }
@@ -1723,9 +1588,6 @@ a.hire-btn:hover{
     top: 0;
     width: 100% !important;    
 }
-
-
-/* quote post */
 .masonry-post.quote{
   padding: 30px;
 }
@@ -1815,16 +1677,12 @@ a.hire-btn:hover{
   -o-transition:    all .5s;
   transition:     all .5s;
 }
-/* 16 - clients 
-------------------------------------------------------------------------*/
 #clients {
     background-color: #F0F2F7;
 }
 .clients_logo li{
     margin-bottom: 30px;
 }
-/* 16.1 - Testimonials
-------------------------------------------------------------------------*/
 #testimonials {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1846,10 +1704,6 @@ a.hire-btn:hover{
     font-size: 18px;
     font-weight: bold;
 }
-
-/* 16.2 - Clients Logo
-------------------------------------------------------------------------*/
-
 .clients_logo {
     list-style: none outside none;
     margin-left: -30px;
@@ -1859,13 +1713,6 @@ a.hire-btn:hover{
     height: 125px;
     padding: 0px;
 }
-
-
-
-
-
-/* 17 - contact
-------------------------------------------------------------------------*/
 .get_in{
     list-style: none;
     margin-top: 40px;
@@ -1947,10 +1794,6 @@ a.hire-btn:hover{
 .contact .pinico{
     margin-top: 50px;
 }
-
-
-/* 18 - Footer
-------------------------------------------------------------------------*/
 .twitter-feed-section{
     background: none repeat scroll 0 0 #55acee;
     color: #FFFFFF;
@@ -1966,8 +1809,6 @@ a.hire-btn:hover{
     margin-top: 18px;
     width: 90%;
 }
-/* 18.1 - Tweet List
-------------------------------------------------------------------------*/
 .tweets-list-container{
     float: left;
     overflow: hidden;
@@ -1980,8 +1821,6 @@ a.hire-btn:hover{
     font-size: 18px;
     text-align: center;
 }
-/* 18.2 - Footer Widgets
-------------------------------------------------------------------------*/
 .footer-widgets{
     background-color: #222222;
     color: #FFFFFF;
@@ -2024,9 +1863,6 @@ a.hire-btn:hover{
     color: #858584;
     font-weight: 300;
 }
-
-
-
 .footer-widgets .tag-cloud, .footer-widgets .my-flickr {
     display: inline-block;
     margin: 0 0 15px;
@@ -2063,8 +1899,6 @@ a.hire-btn:hover{
     font-weight: 300;
     margin-top: 36px;
 }
-/* 18.3 - Footer social icons
-------------------------------------------------------------------------*/
 .footer-bottom .social { padding:0; margin:2em 0; list-style:none; text-align: center; }
 .footer-bottom .social li { display:inline-block; padding:0; margin-bottom: 3px; }
 .footer-bottom .social li a { 
@@ -2130,9 +1964,6 @@ a.hire-btn:hover{
 .footer-bottom .social li a.github { background-color: #000; }
 .footer-bottom .social li a.wordpress { background-color: #0083b3; }
 .footer-bottom .social li a.instagram { background-color:#3f729b; }
-
-/* 19 - Color Switcher
-------------------------------------------------------------------------*/
 .colors-switcher {
     width:100px;
     padding:20px 18px 14px 20px;
@@ -2227,8 +2058,6 @@ a.hire-btn:hover{
 .colors-switcher .colors-list a.gray {
     background-color: #797979;
 }
-/* 20 - Preloader 
-------------------------------------------------------------------------*/
 .mask {
     background-color: #ffffff;
     height: 100%;

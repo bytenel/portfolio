@@ -291,7 +291,7 @@ Responsive
     }
 }
 
-@media (max-width: 320px){'
+@media (max-width: 320px){
     .clients_logo li{
         margin-left: 0px;
     }
