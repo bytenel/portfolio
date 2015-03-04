@@ -12,6 +12,12 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def resume
+    send_data(open("#{Rails.root}/app/assets/files/resume.pdf").read,
+              :filename => "resume.pdf",
+              :type => "application/pdf")
+  end
+
   def index
   	@message = Message.new
 
