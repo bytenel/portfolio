@@ -72,26 +72,6 @@
             }
             });
 
-/*----------------------------- Tweetscroll--------------------------*/
-  $('.tweets-list-container').tweetscroll({ 
-    username: 'envatowebdesign', 
-    speed : 100,
-    delay: 5000,    
-    time: false,
-    replies: false,
-    limit: 5,
-    position: 'append', 
-    date_format: 'style2', 
-    animation: 'slide_up', 
-    request_url: 'js/tweetscroll/twitter/tweets.php',
-    visible_tweets: 1 
-  });
-
-/*----------------------------- Tooltip--------------------------*/
-  $( 'body' ).tooltip({
-        selector: "a[data-toggle=tooltip]"
-  });
-
 /*----------------------------- Skill Chart --------------------------*/
   $('.chart').easyPieChart({
         animate: 2000,
@@ -132,17 +112,6 @@
     itemsDesktop : [1199,1],
     itemsDesktopSmall : [979,1],
     itemsMobile : [480,1]
-  });
-
-/*----------------------------- Google Map --------------------------*/
-  $('#gmap').gmap3({
-    marker:{address:"Haltern am See, Weseler Str. 151", options:{icon: "img/location1.png"}},
-    map:{
-        options:{
-        zoom: 14,
-        scrollwheel: false
-                }
-        }
   });
 
 /*----------------------------- Contact Form --------------------------*/

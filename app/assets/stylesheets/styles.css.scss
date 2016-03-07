@@ -743,7 +743,7 @@ a.hire-btn:hover{
   padding: 145px 20px;
 }
 .home-overlay {
-    background:repeat scroll 0 0 rgba(53,60,79,.8);
+    background:repeat scroll 0 0 rgb(0,0,0);
     height: 100%;
     min-height: 900px;
     position: relative;
@@ -877,7 +877,7 @@ a.hire-btn:hover{
     font-size: 30px;
 }
 #resume.section{
-    background-color: #f0f2f7;
+    background-color: #000;
 }
 
 .timeline {
@@ -1149,6 +1149,9 @@ a.hire-btn:hover{
 .right-service .service-content{
     text-align: left;
 }
+#service{
+    background-color: #fff;
+}
 .service-content h3{
     color: #2c3d4f;
     text-transform: uppercase;
@@ -1162,7 +1165,7 @@ a.hire-btn:hover{
     line-height: 28px;
 }
 #skills{
-    background-color: #eff1f7;
+    background-color: #000;
 }
 .chart-padding{
     margin-bottom: 50px; 
@@ -1676,7 +1679,7 @@ a.hire-btn:hover{
   transition:     all .5s;
 }
 #clients {
-    background-color: #F0F2F7;
+    background-color: #fff;
 }
 .clients_logo li{
     margin-bottom: 30px;
@@ -1782,12 +1785,8 @@ a.hire-btn:hover{
     margin-top: 50px;
 }
 
-.contact {
-    background:none repeat scroll 0 0 rgba(255, 255, 255, 0.60);
-    height: 400px;
-    position: absolute;
-    z-index: 2;
-    text-align: center;
+#contact {
+    background-color: #000;
 }
 .contact .pinico{
     margin-top: 50px;
