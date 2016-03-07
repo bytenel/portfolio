@@ -190,7 +190,7 @@ a.hire-btn:hover{
 .rounded {
     border-radius:50px!important;
 }
-.social { padding:0; margin:2em 0; list-style:none; text-align: center; }
+.social { padding:0; margin:2em 0; list-style:none; text-align: center;}
 .social li { display:inline-block; padding:0; margin-bottom: 3px; }
 .social li a { 
     border-radius: 50%;
@@ -745,7 +745,8 @@ a.hire-btn:hover{
   padding: 145px 20px;
 }
 .home-overlay {
-    background:repeat scroll 0 0 rgb(0,0,0);
+    background: url(image_path("me.jpg")) no-repeat center center fixed;
+    background-size: contain;
     height: 100%;
     min-height: 900px;
     position: relative;
@@ -767,9 +768,8 @@ a.hire-btn:hover{
 }
 
 .info{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    bottom: 0;
 }
 .info > h2{
     color: #FFFFFF;
