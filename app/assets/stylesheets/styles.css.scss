@@ -1,9 +1,14 @@
+@font-face {
+    font-family: roboto-light;
+    src: url("fonts/Roboto-Thin.ttf");
+}
+
 html{
     overflow-y: scroll;
     overflow-x: hidden;    
 }
 body { 
-    font-family: 'Raleway', Helvetica, Arial, sans-serif; 
+    font-family: roboto-light, Helvetica, Arial, sans-serif; 
     font-size: 16px; 
     color: #000;
     background-color: #FFFFFF; 
@@ -19,7 +24,7 @@ br.clear { margin: 0px; padding: 0px; }
 hr{margin: 10px 0;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif; 
+    font-family: roboto-light, Helvetica, Arial, sans-serif; 
     padding-bottom: 5px; 
     color: #373432; 
     line-height: 1em; 
@@ -541,6 +546,12 @@ a.hire-btn:hover{
     height: 0!important;
 }
 
+ul.nav > li > a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-style: none;
+}
+
 .navbar-nav>li .sub-menu,
 .navbar-nav>li .sub-menu>li>a,
 .navbar-nav>li .sub-menu>li .sub-menu,
@@ -564,18 +575,7 @@ a.hire-btn:hover{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.navbar-nav>li.menu-item-has-children:before {
-    content: "\f0d7";
-    color: #FFFFFF;
-}
-.sub-menu>li.menu-item-has-children:before{
-    content: "\f0da";
-    color: #ffffff;
-}
-.sub-menu>li.menu-item-has-children:hover:before {
-    color: #FFFFFF;
-    outline: none;
-}
+
 .navbar-nav>li .sub-menu{
     position: absolute;
     list-style: none;
@@ -745,8 +745,8 @@ a.hire-btn:hover{
   padding: 145px 20px;
 }
 .home-overlay {
-    background: url(image_path("me.jpg")) no-repeat center center fixed;
-    background-size: contain;
+    background: url(image_path("me.jpg")) no-repeat center center scroll;
+    background-size: cover;
     height: 100%;
     min-height: 900px;
     position: relative;
@@ -4711,4 +4711,15 @@ a.hire-btn:hover{
 }
 .fa-world:before {
   content: "\e7f2";
+}
+.nav:hover{
+    background: #000;
+}
+.info > h2 {
+    opacity: .5;
+    color: #000;
+}
+.info > h3 {
+    opacity: .5;
+    color: #000;
 }

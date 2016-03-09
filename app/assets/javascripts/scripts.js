@@ -3,29 +3,6 @@
 
    $(document).ready(function(){
 /*----------------------------- Navigations --------------------------*/
-//Navigation For Index1
-  $('#open-nav ').click(function () {
-      if ($(this).hasClass('fa fa-bars')) {
-          $(this).removeClass('ffa fa-bars').addClass('fa fa-times');
-          $('#navs').addClass('open-navs').slideDown('.navone');
-          $(this).removeClass('nav-half').addClass('nav-full');
-          $('.nav-menu').show();
-      } else {
-          $(this).removeClass('fa fa-times').addClass('fa fa-bars');
-          $(this).removeClass('nav-full').addClass('nav-half');
-          $('#navs').removeClass('open-navs').slideUp('.navone');
-          $('.nav-menu').hide();
-      }
-  });
-
-//Navigation For Index2
-  $('#navs').onePageNav({
-    currentClass: 'active',
-    filter: ':not(.external)', 
-    scrollThreshold: 0.25,
-    scrollOffset: 0
-  });
-
 //Sticky Navigation
   $(".main-menu-continer").sticky({ topSpacing: 0 });
 
