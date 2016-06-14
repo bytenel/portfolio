@@ -1,14 +1,17 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+gem 'rails'
 
-gem 'rails', '3.2.11'
-
-gem 'sass-rails',   '~> 3.2.3'
-gem 'coffee-rails', '~> 3.2.1'
-gem 'uglifier', '>= 1.0.3'
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
+gem 'bootstrap-sass'
 gem 'fontello-rails'
+<<<<<<< 97fc082c0f3e7f51d4ce3460643f3209767bedb1
+=======
+gem 'monologue'
+gem 'pg'
+>>>>>>> adding in monologue blogging engine
 
 group :development,:test do
 	gem 'better_errors'
