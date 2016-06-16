@@ -1,6 +1,6 @@
 @font-face {
     font-family: roboto-light;
-    src: url("fonts/Roboto-Thin.ttf");
+    src: url("Roboto-Thin.ttf");
 }
 
 html{
@@ -1167,7 +1167,7 @@ ul.nav > li > a:hover {
     line-height: 28px;
 }
 #skills{
-    background-color: #000;
+    background-color: #fff;
 }
 .chart-padding{
     margin-bottom: 50px; 
@@ -1681,7 +1681,7 @@ ul.nav > li > a:hover {
   transition:     all .5s;
 }
 #clients {
-    background-color: #fff;
+    background-color: #000;
 }
 .clients_logo li{
     margin-bottom: 30px;
@@ -1788,7 +1788,7 @@ ul.nav > li > a:hover {
 }
 
 #contact {
-    background-color: #000;
+    background-color: #fff;
 }
 .contact .pinico{
     margin-top: 50px;
@@ -2088,11 +2088,11 @@ ul.nav > li > a:hover {
 /* Metrofontpack.csss */
 @font-face {
   font-family: 'metrofontpack';
-  src:url('fonts/metrofontpack.eot?tdjaq8');
-  src:url('fonts/metrofontpack.eot?#iefixtdjaq8') format('embedded-opentype'),
-  url('fonts/metrofontpack.woff?tdjaq8') format('woff'),
-  url('fonts/metrofontpack.ttf?tdjaq8') format('truetype'),
-  url('fonts/metrofontpack.svg?tdjaq8#metrofontpack') format('svg');
+  src:url('metrofontpack.eot?tdjaq8');
+  src:url('metrofontpack.eot?#iefixtdjaq8') format('embedded-opentype'),
+  url('metrofontpack.woff?tdjaq8') format('woff'),
+  url('metrofontpack.ttf?tdjaq8') format('truetype'),
+  url('metrofontpack.svg?tdjaq8#metrofontpack') format('svg');
   font-weight: normal;
   font-style: normal;
 }

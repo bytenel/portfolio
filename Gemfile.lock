@@ -64,40 +64,17 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-<<<<<<< 97fc082c0f3e7f51d4ce3460643f3209767bedb1
-    coffee-script-source (1.9.0)
-    debug_inspector (0.0.2)
-    erubis (2.7.0)
-    execjs (2.3.0)
-=======
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.7.0)
->>>>>>> adding in monologue blogging engine
     fontello-rails (0.2.0)
       railties (>= 3.2)
       sass-rails (>= 3.2)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-<<<<<<< 97fc082c0f3e7f51d4ce3460643f3209767bedb1
-    journey (1.0.4)
-    json (1.8.2)
-    mail (2.4.4)
-      i18n (>= 0.4.0)
-      mime-types (~> 1.16)
-      treetop (~> 1.4.8)
-    mime-types (1.25.1)
-    multi_json (1.10.1)
-    polyglot (0.3.5)
-    rack (1.4.5)
-    rack-cache (1.2)
-      rack (>= 0.4)
-    rack-ssl (1.3.4)
-      rack
-=======
     jquery-rails (4.1.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -130,7 +107,6 @@ GEM
     pg (0.18.4)
     pkg-config (1.1.7)
     rack (1.6.4)
->>>>>>> adding in monologue blogging engine
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.6)
@@ -159,32 +135,6 @@ GEM
       actionpack (= 4.2.6)
       activesupport (= 4.2.6)
       rake (>= 0.8.7)
-<<<<<<< 97fc082c0f3e7f51d4ce3460643f3209767bedb1
-      rdoc (~> 3.4)
-      thor (>= 0.14.6, < 2.0)
-    rake (10.4.2)
-    rdoc (3.12.2)
-      json (~> 1.4)
-    sass (3.4.11)
-    sass-rails (3.2.6)
-      railties (~> 3.2.0)
-      sass (>= 3.1.10)
-      tilt (~> 1.3)
-    sprockets (2.2.3)
-      hike (~> 1.2)
-      multi_json (~> 1.0)
-      rack (~> 1.0)
-      tilt (~> 1.1, != 1.3.0)
-    thor (0.19.1)
-    tilt (1.4.1)
-    treetop (1.4.15)
-      polyglot
-      polyglot (>= 0.3.1)
-    tzinfo (0.3.43)
-    uglifier (2.7.0)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
-=======
       thor (>= 0.18.1, < 2.0)
     rake (11.2.2)
     responders (2.1.2)
@@ -213,7 +163,6 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
->>>>>>> adding in monologue blogging engine
 
 PLATFORMS
   ruby
@@ -224,17 +173,11 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails
   fontello-rails
-<<<<<<< 97fc082c0f3e7f51d4ce3460643f3209767bedb1
-  rails (= 3.2.11)
-  sass-rails (~> 3.2.3)
-  uglifier (>= 1.0.3)
-=======
   monologue
   pg
   rails
   sass-rails
   uglifier
->>>>>>> adding in monologue blogging engine
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
