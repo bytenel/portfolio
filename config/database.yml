@@ -4,3 +4,9 @@ development:
   pool: 5
   username: blog
   password:
+production:
+  adapter: postgresql
+  database: blog_production
+  pool: 5
+  username: blog
+  password:

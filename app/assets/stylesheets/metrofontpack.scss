@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'metrofontpack';
-	src:url('fonts/metrofontpack.eot?tdjaq8');
-	src:url('fonts/metrofontpack.eot?#iefixtdjaq8') format('embedded-opentype'),
-		url('fonts/metrofontpack.woff?tdjaq8') format('woff'),
-		url('fonts/metrofontpack.ttf?tdjaq8') format('truetype'),
-		url('fonts/metrofontpack.svg?tdjaq8#metrofontpack') format('svg');
+	src:font-url('metrofontpack.eot?tdjaq8');
+	src:font-url('metrofontpack.eot?#iefixtdjaq8') format('embedded-opentype'),
+		font-url('metrofontpack.woff?tdjaq8') format('woff'),
+		font-url('metrofontpack.ttf?tdjaq8') format('truetype'),
+		font-url('metrofontpack.svg?tdjaq8#metrofontpack') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
