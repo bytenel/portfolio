@@ -29,4 +29,5 @@ Portfolio::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.raise_delivery_errors = true
+  config.eager_load = false
 end
