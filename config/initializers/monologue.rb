@@ -10,7 +10,7 @@ Monologue.config do |config|
   config.posts_per_page = 10
   config.preview_size = 1000
 
-  config.disqus_shortname = "my_disqus_shortname"
+  config.disqus_shortname = "illegalnumbers-1"
 
   # LOCALE
   config.twitter_locale = "en" 
