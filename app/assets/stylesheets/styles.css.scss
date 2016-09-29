@@ -15,6 +15,7 @@ body {
     font-weight: 300;
 }
 a ,a:hover, a:focus{ 
+    color: inherit;
     text-decoration: none;
     outline:none;
 }
@@ -880,6 +881,15 @@ ul.nav > li > a:hover {
 }
 #resume.section{
     background-color: #000;
+    h2{
+      color: white;
+    }
+    h4{
+        color: white;
+    }
+    p{
+       color: white;
+    }
 }
 
 .timeline {
@@ -952,84 +962,7 @@ ul.nav > li > a:hover {
 .timeline-post-content-holder{
     padding: 15px;
 }
-.timeline-post:hover .timeline-post-content-holder{
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    position: relative;
-}
-.timeline-post-left > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    right: 0;
-    background-color: #ccd0db;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: -7px;
-    z-index: 6;
-    margin-top: 10px;
-}
-.timeline-post-right > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    left: 0;
-    background-color: #ccd0db;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-left: -7px;
-    z-index: 6;
-    margin-top: 10px;
-}
-.timeline-post-left > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    right: 0;
-    background-color: #e74b3b;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: -32px;
-    z-index: 6;
-    margin-top: 10px;
-}
-.timeline-post-right > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
-    position: absolute;
-    right: 0;
-    background-color: #e74b3b;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-left: -32px;
-    z-index: 6;
-    margin-top: 10px;
-}
 
-.timeline-post-right > .timeline-post:hover > .timeline-post-content-holder:before{
-    right: 100%;
-    top: 13%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-right-color: #FFFFFF;
-    border-width: 13px;
-    margin-top: -13px;
-}
-.timeline-post-left > .timeline-post:hover > .timeline-post-content-holder:before{
-    left: 100%;
-    top: 13%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-left-color: #FFFFFF;
-    border-width: 13px;
-    margin-top: -13px;
-}
 .timeline-post .timeline-post-title h4{
     color: #2c3e50;
     font-size: 22px;
