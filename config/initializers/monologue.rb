@@ -26,7 +26,7 @@ Monologue.config do |config|
   #SOCIAL
   config.twitter_username = "@illegalnumbers"
   config.linkedin_url = "https://www.linkedin.com/in/bennelson1"
-  config.github_username = "@illegalnumbers"
+  config.github_username = "illegalnumbers"
   config.show_rss_icon = true
 
 end
