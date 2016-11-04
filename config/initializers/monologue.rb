@@ -1,6 +1,6 @@
 Monologue.config do |config|
   config.site_name = "Illegal Numbers"
-  config.site_subtitle = "Ranting at walls."
+  config.site_subtitle = "Rambling incoherently."
   config.site_url = "http://www.illegalnumbers.com"
 
   config.meta_description = "Life. Code."
