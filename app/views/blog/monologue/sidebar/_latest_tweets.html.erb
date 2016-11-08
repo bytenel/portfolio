@@ -1,8 +1,6 @@
 <% unless Monologue::Config.twitter_username.nil? %>
-  <%= sidebar_section_for(t(".title")) do %>
-    <ul id="latest_tweets">
-      <li id="tweet_template" style="display:none;">{{text}}</li>
-    </ul>
-    <script type="text/javascript" src="https://api.twitter.com/1/statuses/user_timeline/<%= Monologue::Config.twitter_username %>.json?callback=TwitterWidget.callback&amp;count=5"></script>
-  <% end %>
+  <div class='twitter-sidebar' style="height: 40vh !important; overflow: auto;">
+	<a class="twitter-timeline" href="https://twitter.com/illegalnumbers">Tweets by illegalnumbers</a>
+  </div>
+   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <% end %>
