@@ -53,7 +53,7 @@
   $('.chart').easyPieChart({
         animate: 2000,
         lineWidth: 13,
-        barColor: '#e74c3c',
+        barColor: '#fb0000',
         lineCap: 'square',
         scaleColor: false,
         trackColor: '#e6e8ed',
