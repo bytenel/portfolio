@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <%= render 'layouts/monologue/application/head' %>
+  <%= render 'blog/layouts/monologue/application/head' %>
 </head>
 <body>
   <div class="container">
@@ -12,6 +12,7 @@
       <%= rss_icon %>
       <h1><a href="<%= root_path %>"><%=Monologue::Config.site_name%></a></h1>
       <h2><%=Monologue::Config.site_subtitle%></h2>
+      <h3><%= link_to "Back to Portfolio", main_app.root_path %></h3>
       <%= render partial: "layouts/monologue/application/social_icons" %>
     </header>
     <div class="content twelve columns">

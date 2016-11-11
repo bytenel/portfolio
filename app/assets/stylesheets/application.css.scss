@@ -3,3 +3,21 @@
  *= require_self
 */
 @import "fontello";
+.container{
+	font-family: roboto-light, Helvetica, Arial, sans-serif !important;
+}
+// need to fix sidebar for blog here
+.widget{
+  header{
+	h1 {
+		padding: 0;
+		margin: 0;
+	}
+  }
+
+  ul{
+      vertical-align: baseline;
+      list-style-position: inside;
+  }
+}
+// fix read more blog link
