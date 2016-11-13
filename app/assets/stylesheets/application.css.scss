@@ -1,7 +1,13 @@
-/*
- *= require_tree .
- *= require_self
-*/
+@import "bootstrap";
+@import "font-awesome";
+@import "metrofontpack";
+@import "bourbon/_bourbon";
+/* TODO: get rid of owl carousel and theme */
+@import "owl.carousel";
+@import "owl.theme";
+@import "responsive";
+@import "styles";
+@import "timeline";
 @import "fontello";
 .container{
 	font-family: roboto-light, Helvetica, Arial, sans-serif !important;

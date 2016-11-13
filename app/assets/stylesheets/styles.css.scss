@@ -633,7 +633,6 @@ ul.nav > li > a:hover {
     position: relative;
 }
 .about-style1 .section-title{
-    margin-top: 178px;
     text-align: center; 
     margin-bottom: 50px;
 }
@@ -892,213 +891,7 @@ ul.nav > li > a:hover {
     }
 }
 
-.timeline {
-    height: 100%;
-}
-.timeline:after, .timeline::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 49.8%;
-    width: 3px;
-    height: 100%;
-    background-color: #dbdde5;
-    z-index: 5;    
-}
-.timeline-category{
-    text-align: center;
-    position: relative;
-    z-index: 6;
-}
-.bt-timeline{
-    display: inline-block;
-    color: #2c3d4f;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #dbdde5;
-    padding: 25px;
-    text-transform: uppercase;
-    letter-spacing: 0;
-}
-.timeline-category-icon{
-    margin-top: 20px;
-}
-.edu-cagegory{
-    clear: both;
-}
-.edu-cagegory .iconspace{
-    background-color: #fb0000;
-}
-.iconspace{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: #fb0000;
-    z-index: 7;
-}
-.iconspace i{
-    font-size: 18px;
-    color: #FFFFFF;
-    line-height: 40px;
-}
-.timeline-post-left{
-    text-align: right;
-}
-.timeline-post-right{
-    text-align: left;
-}
-.timeline-post{
-    padding: 10px;
-}
-.timeline-post-left .timeline-post:first-child{
-    margin-top: 65px;
-}
-.timeline-post-content-holder{
-    padding: 15px;
-}
 
-.timeline-post .timeline-post-title h4{
-    color: #2c3e50;
-    font-size: 22px;
-    font-weight: bold;
-}
-.timeline-post .timeline-post-subtitle p{
-    color: #2c3e50;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-}
-.timeline-post .timeline-post-content{
-    color: #7d878f;
-    font-size: 16px;
-    line-height: 28px;
-}
-.timeline-post span.timeline-duration{
-    position: relative;
-    padding-left: 15px;
-}
-.timeline-post span.timeline-duration:before{
-    position: absolute;
-    content: "";
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    line-height: 1;
-    background-color: #e74b3b;
-    left: 3px;
-    margin-top: 12px;
-    border-radius: 50%;
-
-}
-
-.timeline-end-icon{
-    position: absolute;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: #cbcfdb;
-    color: #5f7183;
-    font-size: 18px;
-    line-height: 40px;
-    bottom: 0;
-    left: 48.3%;
-    border-radius: 50%;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 6;
-}
-.count{
-
-}
-.count .single {
-    font-size: 20px;
-    line-height: 28px;
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-.count .iconspace{
-    width: 95px;
-    height: 95px;
-    background: #FFFFFF;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
-.count .cicon {
-    font-size: 50px;
-    color: #e64b3b;
-    line-height: 95px;
-}
-.count .sum{
-    display: block;
-    padding: 20px 0 10px;
-    font-size: 22px;
-    font-weight: 700;
-
-}
-
-.left-service{
-    float: left;
-}
-.right-service{
-    float: right;
-}
-.service-box{
-    padding-bottom: 10px;
-}
-.left-service .service-icon{
-    float: right;
-    width: 85px;
-    height: 85px;
-    background-color: #e74c3c;
-    color: #FFFFFF;
-    border-radius: 5px;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: center;
-    margin-left: 25px;
-}
-.left-service .service-content{
-    text-align: right;
-}
-.right-service .service-icon{
-    float: left;
-    width: 85px;
-    height: 85px;
-    background-color: #e74c3c;
-    color: #FFFFFF;
-    border-radius: 5px;
-    font-size: 40px;
-    line-height: 85px;
-    text-align: center;
-    margin-right: 25px;
-}
-.right-service .service-content{
-    text-align: left;
-}
-#service{
-    background-color: #fff;
-}
-.service-content h3{
-    color: #2c3d4f;
-    text-transform: uppercase;
-
-    font-size: 22px;
-    font-weight: bold;
-}
-.service-content p{
-    color: #7e868e;
-    font-size: 16px;
-    line-height: 28px;
-}
 #skills{
     background-color: #fff;
 }
@@ -1657,7 +1450,8 @@ ul.nav > li > a:hover {
     padding: 0px;
 }
 .get_in{
-    list-style: none;
+    padding: 0;
+    list-style-type: none;
     margin-top: 40px;
     margin-bottom: 40px;
 }
