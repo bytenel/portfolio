@@ -97,7 +97,7 @@ blockquote p {
     text-decoration: inherit;
 }    
 #navbar{
-    background-color: #000;
+    background-color: #333;
 }
 .scroll-top {
     background: none repeat scroll 0 0 #222222;
@@ -548,7 +548,7 @@ a.hire-btn:hover{
 }
 
 ul.nav > li > a:hover {
-    background-color: #000000;
+    background-color: #333;
     color: #FFFFFF;
     border-style: none;
 }
@@ -618,12 +618,6 @@ ul.nav > li > a:hover {
     width: 0;
     height:auto;
     opacity: 0;
-}
-.navbar-nav>li .sub-menu>li:hover .sub-menu{
-    opacity: 1;
-    overflow: visible;
-    width: 160px;
-    left: 100%;
 }
 .toggle_nav_button {
     display: none;
@@ -719,10 +713,6 @@ ul.nav > li > a:hover {
     color:#FFFFFF;
     line-height:10px!important;
 }       
-.parallax .outline:hover {
-    background-color:#FFFFFF;
-    color:#222;
-}
 
 #status{
     /*background-image: url('http://placehold.it/1920x1024');*/
@@ -882,8 +872,10 @@ ul.nav > li > a:hover {
 .about-extra-icon-style2 ul li p i {
     font-size: 30px;
 }
+#resume{
+    background-color: #333 !important;
+}
 #resume.section{
-    background-color: #000;
     h2{
       color: white;
     }
@@ -1008,12 +1000,6 @@ ul.nav > li > a:hover {
     -o-transition: all 0.3s ease 0s;
     outline: none;
     text-decoration: none;
-}
-
-#filters li a:hover{
-    color: #FFFFFF;
-    text-decoration: none;
-    outline: none;
 }
 
 #options li a.selected{
@@ -1411,7 +1397,7 @@ ul.nav > li > a:hover {
   transition:     all .5s;
 }
 #clients {
-    background-color: #000;
+    background-color: #333;
     h2{
         color:white;
     }
@@ -4449,9 +4435,6 @@ ul.nav > li > a:hover {
 }
 .fa-world:before {
   content: "\e7f2";
-}
-.nav:hover{
-    background: #000;
 }
 .info > h2 {
     opacity: .5;
